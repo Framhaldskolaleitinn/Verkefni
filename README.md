@@ -7,5 +7,5 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 ------------
 
 ![image](drawings/js2_img1.png)
-![image](drawings/js2_img2.png)
-![image](drawings/js2_img3.png)
+![image](drawings/js2_img2.jpg)
+![image](drawings/js2_img3.jpg)
