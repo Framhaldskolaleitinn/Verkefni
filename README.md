@@ -6,6 +6,6 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 
 ------------
 
-![image](https://github.com/Accent8/Vefforritun2Verkefni/assets/74972331/b5af9326-d288-43d2-8c7f-e5e928f05114)
-![image](https://github.com/Accent8/Vefforritun2Verkefni/assets/74972331/32285a42-6951-41a1-8f2e-47487365b6d5)
-![image](https://github.com/Accent8/Vefforritun2Verkefni/assets/74972331/c26731ee-fb8f-4851-83d4-b16ff3490d5f)
+![image](drawings/js2_img1.png)
+![image](drawings/js2_img2.png)
+![image](drawings/js2_img3.png)
