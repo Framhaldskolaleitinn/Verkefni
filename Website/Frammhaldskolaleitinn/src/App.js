@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <header><img src={logo} alt="Logo" className='logo' />Frammhaldsskóla leitinn</header>
+    <header className='' ><img src={logo} alt="Logo" className='logo' />Frammhaldsskóla leitinn</header>
   );
 }
 
