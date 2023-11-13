@@ -4,6 +4,7 @@ import React from 'react';
 import './index.css';
 import App from '.';
 import reportWebVitals from './reportWebVitals';
+import dummyData from './dummyData.json'
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Blogs from './pages/Blogs';
