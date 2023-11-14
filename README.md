@@ -6,6 +6,4 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 
 ------------
 
-<img src="drawings/js2_img1.png"  width="40%" height="30%"> <img src="drawings/js2_img2.jpg"  width="40%" height="30%">
-<img src="drawings/js2_img3.jpg"  width="40%" height="30%">
 
