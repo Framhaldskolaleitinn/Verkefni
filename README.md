@@ -6,4 +6,7 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 
 ------------
 
+## Figma 
+https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type=design&t=Yf4GPxuJqKz8M6Hx-6
 
+![figma](https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/d649acb0-5347-409d-9f15-7044ad4f728c)
