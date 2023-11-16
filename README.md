@@ -6,6 +6,11 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 
 ------------
 
-<img src="drawings/js2_img1.png"  width="40%" height="30%"> <img src="drawings/js2_img2.jpg"  width="40%" height="30%">
-<img src="drawings/js2_img3.jpg"  width="40%" height="30%">
+## Figma 
+https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type=design&t=Yf4GPxuJqKz8M6Hx-6
 
+![figma](https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/d649acb0-5347-409d-9f15-7044ad4f728c)
+
+## wireframe
+
+![IMG_6339](https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/052a8450-6132-42c8-bcb4-36af3392f697)
