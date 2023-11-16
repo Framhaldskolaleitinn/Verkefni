@@ -27,5 +27,3 @@ class DataManager:
         result = cursor.fetchall()
         cursor.close()
         return result
-
-    
