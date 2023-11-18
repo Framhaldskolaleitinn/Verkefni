@@ -63,7 +63,7 @@ For each entity, list its attributes (fields) and their data types. For example,
 - Visualize the relationships between entities using an ERD. Common relationships include one-to-one, one-to-many, and many-to-many.
 Use tools like draw.io, Lucidchart, or ERD software to create the diagram.
 
-    - put img here
+![Early visualization](images/dummydata-visualization.png)
 
 3. Normalize Your Data:
 
