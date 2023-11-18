@@ -1,29 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+
 function App() {
+  fetch("/skolar")
+  .then(response => response.json())
+  .then(jsonData => { 
+    const [data, setdata] = useState ({
+      id: id
+      
+    })
+
+  }
+  )
+  
   const [data, setdata] = useState ({
     name: '',
     age: 0,
     date: "",
     programming: "",
   })
-  
-  useEffect(() => {
-    fetch('/data').then((res) =>
-    res.json().then((data) => {
-        // Setting a data from api
-        setdata({
-            name: data.Name,
-            age: data.Age,
-            date: data.Date,
-            programming: data.programming,
-        });
-    })
-    );
-    }, []);
 
   return (
+    <>
     <div className="App">
             <header className="App-header">
                 <h1>React and flask</h1>
@@ -35,6 +34,13 @@ function App() {
  
             </header>
         </div>
+    
+
+
+
+
+
+        </>
   );
 }
 
