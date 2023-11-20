@@ -1,5 +1,5 @@
 USER = 'root'
-PASSWORD = 'Blossi2003'
+PASSWORD = 'mammadin'
 HOST = '127.0.0.1'
-DB = 'dummydb'
+DB = 'framhaldsskolaleit'
 AUTH = 'mysql_native_password'
