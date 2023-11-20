@@ -27,3 +27,17 @@ class DataManager:
         result = cursor.fetchall()
         cursor.close()
         return result
+    
+    def get_brautir(self):
+        cursor = self.conn.cursor()
+        cursor.execute("SELECT * FROM Brautir")
+        result = cursor.fetchall()
+        cursor.close()
+        return result
+    
+    def get_afangar(self):
+        cursor = self.conn.cursor()
+        cursor.execute("SELECT * FROM Afangar")
+        result = cursor.fetchall()
+        cursor.close()
+        return result
