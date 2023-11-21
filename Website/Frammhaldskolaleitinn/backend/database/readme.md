@@ -12,15 +12,14 @@ List the data requirements, including what data needs to be stored, retrieved, a
   - The purpose of the database is to hold information about different schools all in one place. It will take data from "Menntamálastofnunin", "HÍ" and "HR". It will store the following:
     - skólanafn
     - kynjahlutföll skóla
-      - heildarnemendur
       - karlsnemendur
       - kvennemendur
-    - prósenta sem fara í háskóla
+    - !!! prósenta sem fara í háskóla
       - heildarnemendur
       - margir í HR/HÍ úr X Skóla
     - Prósenta sem klára skóla (dropout rate)
       - heildarnemendur
-      - útskriftarnemendur
+      - útskriftarnemendur/dropoutsFjoldi
     - Meðal útskriftartími
       - heildar útskrifartími alla nemanda
       - heildarnemendur
@@ -30,6 +29,9 @@ List the data requirements, including what data needs to be stored, retrieved, a
     - Hversu margir ná fyrsta/seinna val
     - Áfangar á braut
     - Braut í skóla
+
+    ATH!!!!!
+      Þetta er gamalt
     
 2. Identify Entities and Attributes:
 
@@ -37,68 +39,88 @@ List the data requirements, including what data needs to be stored, retrieved, a
 For each entity, list its attributes (fields) and their data types. For example, a "Customer" entity might have attributes like "Name," "Email," and "Address."
 
   - Skóli
-    - heildarnemendur
-      - konur
-      - karlar
-    - Brautir
-    - fjöldi útskrifanemenda
-    - fyrstaval karla
-    - fyrstaval kvenna
-    - annadval karla
-    - annadval kvenna
+    - Karlar (int)
+    - Konur (int)
+    - fjöldi útskrifanemenda (int)
+    - fyrstaval karla (int)
+    - fyrstaval kvenna (int)
+    - annadval karla (int)
+    - annadval kvenna (int)
     - sammþykktar konur (int)
     - samþykktir karlar (int)
-    - Fengu fyrsta val
-    - Fengu annað val
+    - Fengu fyrsta val (int)
+    - Fengu annað val (int)
+    - Hafnað (int)
+    - Samþykkt (int)
+    - önnur lok (int)
 
 
   - Brautir
-    - Heildarnemendur
-    - kynjahlutföll
-    - Meðalútskrifartími
-    - Áætlaður útskrifartími
-    - Stúdentspróf
-    - Útskrifarprósenta
-    - hversu margir komast/fara í háskóla
-    - Hversu margir klára námið
+    - nafn
+    - skolaID
+    - Heildarnemendur (int)
+    - Karlar (int) 
+    - Konur (int)
+    - MeðalútskrifartímiAnnir (int)
+    - Áætlaður útskrifartímiAnnir (int)
+    - Stúdentspróf boolean
+    - Útskriftarprósenta (int)
+    - hversu margir komast/fara í háskóla (int)
+    - Hversu margir klára námið (int)
+    - Fjoldi nemenda sem hætta????? (int)
 
   - Áfangar
     - Nafn áfanga
-    - skilduáfangi
-    - áætluð önn
+    - brautID
+    - skilduáfangi boolean
+    - áætluð önn (int)
 
   - Landshlutar
     - Landshluti(höfupborgarsvæði)
-    - almennt bóknám int
-    - starfsbraut int
-    - starfsnám int
-    - undirbúningsnám int
-    - hafnad
-    - samþykkt
-    - onnurLok
+    - almennt bóknám (int)
+    - starfsbraut (int)
+    - starfsnám (int)
+    - undirbúningsnám (int)
+    - hafnad (int)
+    - samþykkt (int)
+    - onnurLok (int)
 
   - Námsleið
-    - Nafn(almennt bóknám)
-    - karl
-    - kona
-    - kyn ekki skráð, kynsegin
-    - hafnað
-    - samþykkt
-    - önnur lok
+    - Nafn (almennt bóknám)
+    - karl (int)
+    - kona (int)
+    - kyn ekki skráð, kynsegin (int)
+    - hafnað (int)
+    - samþykkt (int)
+    - önnur lok (int)
 
   - Aldursbil
-    - 17-18 hafnað
-    - 17-18 samþykkt
-    - 17-18 önnurlok
-    - 19-24 hafnað
-    - 19-24 samþykkt
-    - 19-24 önnurlok
-    - 25+ hafnað
-    - 25+ samþykkt
-    - 25+ önnurlok
-    - nýnemi hafnað
-    - nýnemi samþykkt
-    - nýnemi önnurlok
+    - 17-18 hafnað (int)
+    - 17-18 samþykkt (int)
+    - 17-18 önnurlok (int)
+    - 19-24 hafnað (int) 
+    - 19-24 samþykkt (int)
+    - 19-24 önnurlok (int)
+    - 25+ hafnað (int)
+    - 25+ samþykkt (int)
+    - 25+ önnurlok (int)
+    - nýnemi hafnað (int)
+    - nýnemi samþykkt (int)
+    - nýnemi önnurlok (int)
+
+  - Innritunarbraut
+    - Braut (Félagsfræðibraut)
+    - karl (int)
+    - kona (int)
+
+
+  - Staða og kyn (Veit ekki hvar á að setja þetta eða hvort það þarf)
+
+    | Raunstaða | Karl | Kona |
+    | --- | --- | --- |
+    | Samþykkt | 3229 | 3111 |
+    | Hafnað | 429 | 287 |
+    | Önnur lok | 189 | 151 |
 
 3. Create an Entity-Relationship Diagram (ERD):
 
