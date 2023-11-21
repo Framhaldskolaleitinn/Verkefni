@@ -42,6 +42,15 @@ For each entity, list its attributes (fields) and their data types. For example,
       - karlar
     - Brautir
     - fjöldi útskrifanemenda
+    - fyrstaval karla
+    - fyrstaval kvenna
+    - annadval karla
+    - annadval kvenna
+    - sammþykktar konur (int)
+    - samþykktir karlar (int)
+    - Fengu fyrsta val
+    - Fengu annað val
+
 
   - Brautir
     - Heildarnemendur
@@ -68,7 +77,28 @@ For each entity, list its attributes (fields) and their data types. For example,
     - samþykkt
     - onnurLok
 
-  - 
+  - Námsleið
+    - Nafn(almennt bóknám)
+    - karl
+    - kona
+    - kyn ekki skráð, kynsegin
+    - hafnað
+    - samþykkt
+    - önnur lok
+
+  - Aldursbil
+    - 17-18 hafnað
+    - 17-18 samþykkt
+    - 17-18 önnurlok
+    - 19-24 hafnað
+    - 19-24 samþykkt
+    - 19-24 önnurlok
+    - 25+ hafnað
+    - 25+ samþykkt
+    - 25+ önnurlok
+    - nýnemi hafnað
+    - nýnemi samþykkt
+    - nýnemi önnurlok
 
 3. Create an Entity-Relationship Diagram (ERD):
 
