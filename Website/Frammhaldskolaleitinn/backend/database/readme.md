@@ -58,6 +58,18 @@ For each entity, list its attributes (fields) and their data types. For example,
     - skilduáfangi
     - áætluð önn
 
+  - Landshlutar
+    - Landshluti(höfupborgarsvæði)
+    - almennt bóknám int
+    - starfsbraut int
+    - starfsnám int
+    - undirbúningsnám int
+    - hafnad
+    - samþykkt
+    - onnurLok
+
+  - 
+
 3. Create an Entity-Relationship Diagram (ERD):
 
 - Visualize the relationships between entities using an ERD. Common relationships include one-to-one, one-to-many, and many-to-many.
