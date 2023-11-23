@@ -1,6 +1,21 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask import Flask, request, jsonify, json
+import os
+
+app = Flask(__name__)
 # Hérna í my_app.py testum við DataManager klasann og virkni hans
+
+@app.route('/')
+def index():
+    with open(os.path.join(app.static_folder, 'skolar.json')) as json_file:
+        data = json_file.read()
+    return jsonify(data)
+@app.route('/static/<path:path>')
+def serve_static(path):
+    return send_from_directory('static', path)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+'''
 from data_manager import DataManager
 
 # Búum til nýtt object, dm sem er af taginu DataManager
@@ -11,7 +26,6 @@ print(dm.status)
 
 
 app = Flask(__name__)
-CORS(app)
 
 skolar_gogn = dm.get_skolar()
 brautir_gogn = dm.get_brautir()
@@ -66,3 +80,4 @@ def get_skolarnir():
 @app.get("/brautir")
 def get_brautirnar():
     return jsonify(brautir_dict)
+'''
