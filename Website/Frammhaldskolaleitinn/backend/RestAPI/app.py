@@ -4,14 +4,18 @@ import os
 app = Flask(__name__)
 # Hérna í my_app.py testum við DataManager klasann og virkni hans
 
-@app.route('/')
-def index():
+@app.route('/api/data')
+def get_data():
     with open(os.path.join(app.static_folder, 'skolar.json')) as json_file:
         data = json_file.read()
+    print(data)
     return jsonify(data)
 @app.route('/static/<path:path>')
 def serve_static(path):
     return send_from_directory('static', path)
+@app.route('/')
+def index():
+    return 'raah'
 
 if __name__ == '__main__':
     app.run(debug=True)

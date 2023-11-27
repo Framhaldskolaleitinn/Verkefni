@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     fetch('/api/data')
       .then(response => response.json())
-      .then(data => setData(data))
+      .then(data => console.log(data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
