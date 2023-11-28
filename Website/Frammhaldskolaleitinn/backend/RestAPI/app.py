@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-
+from flask_cors import CORS
 # Hérna í my_app.py testum við DataManager klasann og virkni hans
 from data_manager import DataManager
 
@@ -11,9 +11,14 @@ print(dm.status)
 
 
 app = Flask(__name__)
+CORS(app)
 
-gogn = dm.get_skolar()
-print(gogn)
+skolar_gogn = dm.get_skolar()
+brautir_gogn = dm.get_brautir()
+afangar_gogn = dm.get_afangar()
+print(skolar_gogn)
+print(brautir_gogn)
+print(afangar_gogn)
 
 class my_dictionary(dict): 
  
@@ -28,12 +33,40 @@ class my_dictionary(dict):
 
 dict_gogn = my_dictionary()
 
-for i in gogn:
+for i in skolar_gogn:
     dict_gogn[i[0]] = {}
     dict_gogn[i[0]]["ID"] = i[0]
     dict_gogn[i[0]]["Skóli"] = i[1]
+    dict_gogn[i[0]]["Heildarnemendur"] = i[2]
+    dict_gogn[i[0]]["Fjöldi Útskriftarnema"] = i[3]
 
 print(dict_gogn)
+
+brautir_dict = my_dictionary()
+
+for i in brautir_gogn:
+    brautir_dict[i[0]] = {}
+    brautir_dict[i[0]]["ID"] = i[0]
+    brautir_dict[i[0]]["SkolaID"] = i[1]
+    brautir_dict[i[0]]["Braut"] = i[2]
+    brautir_dict[i[0]]["Heildarnemendur"] = i[3]
+    brautir_dict[i[0]]["Fjöldi Útskriftarnema"] = i[4]
+    brautir_dict[i[0]]["annir fyrir útskrift"] = i[5]
+    brautir_dict[i[0]]["meðal annir fyrir útskrift"] = i[6]
+    brautir_dict[i[0]]["Studentsptóf"] = i[7]
+    brautir_dict[i[0]]["Fjöldi nemenda sem fara í háskóla"] = i[8]
+    brautir_dict[i[0]]["Fjöldi nemenda sem klára nám"] = i[9]
+    brautir_dict[i[0]]["Fjöldi nemenda sem hætta"] = i[10]
+
+
 @app.get("/skolar")
 def get_skolarnir():
     return jsonify(dict_gogn)
+
+@app.get("/brautir")
+def get_brautirnar():
+    return jsonify(brautir_dict)
+
+@app.get("/afangar")
+def get_afangarnir():
+    return jsonify(afangar_gogn)

@@ -77,7 +77,19 @@ const styles_menu = {
 };
 
 
+
 function App() {
+  fetch("/skolar")
+  .then(response => response.json())
+  .then(jsonData => { 
+    const [data, setdata] = useState ({
+      id: id
+      
+    })
+
+  }
+  )
+  
   const [data, setdata] = useState ({
     name: '',
     age: 0,
@@ -162,6 +174,7 @@ function App() {
         </div>
       </div>
     </>
+
   );
 }
 
