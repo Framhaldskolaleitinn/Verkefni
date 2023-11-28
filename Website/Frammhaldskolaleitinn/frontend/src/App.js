@@ -1,24 +1,23 @@
 import React, { useState, useEffect } from 'react';
+import axios from "axios";
 import './App.css';
 
-const App = () => {
-  const [data, setData] = useState('');
+function App() {
+  const [skolaData, setSkolaData] = useState('');
 
   useEffect(() => {
     fetch('/api/data')
-      .then(response => response.json())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
+    .then(Response => Response.json())
+    .then(data => setSkolaData(data.data))
+  }, [])
 
   return (
     <div>
-      <h1>React App</h1>
-      <pre>{data}</pre>
+      <h1>{data}</h1>
     </div>
-  );
-};
+  )
 
+}
 export default App;
 
 // dev branch
