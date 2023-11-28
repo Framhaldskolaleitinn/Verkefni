@@ -16,28 +16,8 @@ import IconButton from '@mui/material/IconButton';
 import HomeIcon from '@mui/icons-material/Home';
 import OutdoorGrillIcon from '@mui/icons-material/OutdoorGrill';
 import { styled } from '@mui/material/styles';
-import { yellow } from '@mui/material/colors';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import Menu from '@mui/material/Menu';
-import Popover from "@mui/material/Popover";
 
-
-/* styles filter */
-const StyledToolbar = styled(Toolbar)(({ theme }) => ({
-  paddingTop: theme.spacing(1),
-  paddingBottom: theme.spacing(1),
-  backgroundColor: "skyblue",
-  // Override media queries injected by theme.mixins.toolbar
-  '@media all': {
-    minHeight: 56,
-  },
-}));
+import Header from "./header"
 
 
 
@@ -72,31 +52,6 @@ const styles = {
   },
 };
 
-/* styles navbar */
-const styles_navbar = {
-  appBar: {
-    backgroundColor: '#545657',
-  },
-  toolbar: {
-    display: 'flex',
-    justifyContent: 'space-between',
-  },
-  buttonBox: {
-    display: 'flex',
-  },
-  button: {
-    color: 'black',
-  },
-  individualButtonBox: {
-    backgroundColor: 'white',
-    borderRadius: 16,
-    padding: '8px',
-    marginRight: 8,
-  },
-  appName: {
-    color: 'white',
-  },
-};
 
 /* stles filter */
 const styles_menu = {
@@ -156,47 +111,8 @@ function App() {
 
   return (
     <>
-      {/* header */}
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="Static">
-          <StyledToolbar>
-            <OutdoorGrillIcon sx={{fontSize:30}}> </OutdoorGrillIcon>
-            
-            <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-              Framhaldskólaleitinn
-            </Typography>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
-              
-            >
-              <HomeIcon sx={{fontSize:40}}/>
-            </IconButton>
-          </StyledToolbar>
-        </AppBar>
-      </Box>
 
-      {/* navbar */}
-      <div>
-        <AppBar position="static" style={styles_navbar.appBar}>
-          <Toolbar style={styles_navbar.toolbar}>
-          <div>
-            <Box style={styles_navbar.buttonBox}>
-              <Box style={styles_navbar.individualButtonBox}>
-                <Button style={styles_navbar.button}>Button 1</Button>
-              </Box>
-              <Box style={styles_navbar.individualButtonBox}>
-                <Button style={styles_navbar.button}>Button 2</Button>
-              </Box>
-            </Box>
-          </div>
-          <Typography variant="h6">Your App Name</Typography>
-          </Toolbar>
-        </AppBar>
-      </div>
+      <Header/>
 
       {/* drop down filter */}
       <div style={styles_menu.container}>
