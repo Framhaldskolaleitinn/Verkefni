@@ -84,4 +84,8 @@ def get_skolarnir():
 @app.get("/brautir")
 def get_brautirnar():
     return jsonify(brautir_dict)
+    
+@app.get("/afangar")
+def get_afangarnir():
+    return jsonify(afangar_gogn)
 '''

@@ -6,7 +6,7 @@ import json
 
 
 
-
+'''
 class DataManager:
     def __init__(self):
         self.status = None
@@ -44,7 +44,8 @@ class DataManager:
         cursor.close()
         return result
 
-'''class DataManager:
+'''
+class DataManager:
     def __init__(self):
         self.status = None
         try:
@@ -81,4 +82,3 @@ class DataManager:
         result = cursor.fetchall()
         cursor.close()
         return result
-'''
