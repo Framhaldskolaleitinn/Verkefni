@@ -43,7 +43,6 @@ class DataManager:
         result = cursor.fetchall()
         cursor.close()
         return result
-
 '''
 class DataManager:
     def __init__(self):

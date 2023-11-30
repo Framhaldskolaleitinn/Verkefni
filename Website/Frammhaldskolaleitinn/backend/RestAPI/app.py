@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+
 # Hérna í my_app.py testum við DataManager klasann og virkni hans
 from data_manager import DataManager
 
@@ -11,7 +11,7 @@ print(dm.status)
 
 
 app = Flask(__name__)
-CORS(app)
+
 
 skolar_gogn = dm.get_skolar()
 brautir_gogn = dm.get_brautir()
