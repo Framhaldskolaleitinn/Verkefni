@@ -1,5 +1,5 @@
-USER = 'root'
-PASSWORD = 'Blossi2003'
+USER = 'admin'
+PASSWORD = '3fac9e934892c683b45e41dded567df80185d5c6c00751de'
 HOST = '127.0.0.1'
 DB = 'framhaldsskolaleit'
-AUTH = 'mysql_native_password'
+AUTH = 'caching_sha2_password'
