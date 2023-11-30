@@ -90,25 +90,27 @@ select * from brautir where skolaID = 3;
 select * from brautir;
 
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(1, 'Bjarni tru', true, 1);
+	values(1, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(2, 'Bjarni tru', true, 1);
+	values(2, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(3, 'Bjarni tru', true, 1);
+	values(3, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(4, 'Bjarni tru', true, 1);
+	values(4, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(5, 'Bjarni tru', true, 1);
+	values(5, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(6, 'Bjarni tru', true, 1);
+	values(6, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(7, 'Bjarni tru', true, 1);
+	values(7, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(8, 'Bjarni tru', true, 1);
+	values(8, 'Bjarna tru', true, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
-	values(9, 'Bjarni tru', true, 1);
+	values(9, 'Bjarna tru', true, 1);
     
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
 	values(1, 'VEFÞ3VÞ05DU-Hát', false, 1);
 insert into afangar(brautaID, nafn, skilduAfangi, AaetludOnn)
 	values(1, 'VEFÞ3VÞ05DU-Hát', false, 1);
+    
+select * from afangar;
