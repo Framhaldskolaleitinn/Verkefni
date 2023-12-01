@@ -1,25 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import React, {useEffect,useState} from 'react'
 
 function App() {
-  const[data,setData] = useState([{}])
+
+  const[backendData, setBackendData] = useState([{}])
 
   useEffect(() => {
-    fetch('/skolar').then(
-      res => res.json()
+    fetch('/api').then(
+      response => response.json()
     ).then(
       data => {
-        setData(data)
-        console.log(data)
+        setBackendData(data)
       }
     )
   }, [])
 
-  return <div>
-
-  </div>
+  return (
+    <div> 
+      {(typeof backendData.skolar === 'undefined') ? (
+        <p>Loading...</p>
+      ): (
+        backendData.skolar.map((skolar, i) => (
+          <p key={i}>{skolar}</p>
+        ))
+      )}
+    </div>
+  )
 }
-
 export default App
-
-// dev branch
