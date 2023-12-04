@@ -1,9 +1,17 @@
 const express = require('express')
 const app = express()
+const cors = require('cors');
+const port = 3001;
+
+app.use(cors());
+app.use(express.json());
 
 app.get('/api',(req,res) => {
-    res.json({'skolar': ['takno','verzlo','flens','MS']})
-    // res.json('Website/Frammhaldskolaleitinn/client/skolar.json')
+    const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
+    res.json(jsonData)
+    // res.json('./skolar.json')
 })
 
-app.listen(5000, () => (console.log('Server started on port 5000')))
+app.listen(port, () => {
+    console.log('Server running on port ${port}')
+})
