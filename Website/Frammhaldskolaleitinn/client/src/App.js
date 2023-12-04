@@ -1,34 +1,33 @@
-import React, {useEffect,useState} from 'react'
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import SchoolList from './SchoolList';
+import SchoolPage from './SchoolPage';
+import './App.css';
 
-function App() {
-
-  const[jsonData, setJsonData] = useState(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('http://localhost:3001/api');
-        const data = await response.json();
-        setJsonData(data);
-      } catch(error) {
-        console.error('Error featching data: ', error)
-      }
-    };
-    fetchData();
-  }, [])
-
-    if (!jsonData) {
-      return <div>Loading...</div>
-    }
-    return (
+const App = () => {
+  return (
+    <Router>
       <div>
-        <h1>List of Schools</h1>
-        <ul>
-          {jsonData.map((schools) => (
-            <li key={schools.ID}>{schools.nafn}, fjoldi nemenda : {schools.heildarnemendur}</li>
-          ))}
-        </ul>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/school-list" element={<SchoolList />} />
+          <Route path='/school/:id' element={<SchoolPage />} />
+        </Routes>
       </div>
-    )
-}
-export default App
+    </Router>
+  );
+};
+
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to the Homepage</h1>
+      <Link to="/school-list">
+        <button>Go to School List</button>
+      </Link>
+    </div>
+  );
+};
+
+export default App;
