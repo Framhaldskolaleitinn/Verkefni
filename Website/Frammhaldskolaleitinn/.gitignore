@@ -4,7 +4,10 @@
 node_modules/
 /.pnp
 .pnp.js
+
 env/
+
+
 venv/
 __pycache__/
 
@@ -24,5 +27,4 @@ __pycache__/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
 
