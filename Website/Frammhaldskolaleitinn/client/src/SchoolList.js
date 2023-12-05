@@ -1,19 +1,24 @@
+// SchoolList.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const SchoolList = () => {
+const SchoolList = ({ jsonDataProp }) => {
   const [jsonData, setJsonData] = useState(null);
+
   useEffect(() => {
     const fetchData = async () => {
-        try {
-          const response = await fetch('http://localhost:3001/api/data');
-          const data = await response.json();
-          console.log('Fetched data:', data); // Add this line
-          setJsonData(data);
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        }
-      };
+      try {
+        const response = await fetch('http://localhost:3001/api/data');
+        const clonedResponse = response.clone();
+        const dataText = await clonedResponse.text();
+        console.log('Raw data:', dataText);
+        const data = await response.json();
+        setJsonData(data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
     fetchData();
   }, []);
 
@@ -24,9 +29,10 @@ const SchoolList = () => {
   return (
     <div>
       <h1>List of Schools</h1>
+      <Link to="/">Go Back to Home page</Link>
       <div className="school-container">
         {jsonData.map((school) => (
-          <Link key={school.ID} to={`/school/${school.ID}`} className="school-box">
+          <Link key={school.ID} to={`/school-list/school/${school.ID}`} className="school-box">
             <button>{school.nafn}</button>
           </Link>
         ))}
