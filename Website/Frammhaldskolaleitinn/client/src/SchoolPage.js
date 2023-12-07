@@ -19,9 +19,14 @@ const SchoolPage = ({ jsonData }) => {
     <div>
         <Link to="/school-list">Go Back to School List</Link>
       <h2>{school.nafn}</h2>
-      <p>ID: {school.ID}</p>
       <p>Total Students: {school.heildarnemendur}</p>
       <p>Utskriftarnemenda: {school.fjoldiUtskriftarnemenda}</p>
+      <h3>Majors:</h3>
+      <ul>
+        {school.majors.map((major, index) => (
+          <li key={index}>{major}</li>
+        ))}
+      </ul>
     </div>
   );
 };

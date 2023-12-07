@@ -13,6 +13,7 @@ import IconButton from '@mui/material/IconButton';
 import HomeIcon from '@mui/icons-material/Home';
 import OutdoorGrillIcon from '@mui/icons-material/OutdoorGrill';
 import { styled } from '@mui/material/styles';
+import {Link} from 'react-router-dom';
 
 
 /* styles filter */
@@ -90,14 +91,15 @@ const Header = () => {
         <div>
             <Box style={styles_navbar.buttonBox}>
             <Box style={styles_navbar.individualButtonBox}>
-                <Button style={styles_navbar.button}>Button 1</Button>
+            <Link to="/school-list">
+                <Button style={styles_navbar.button}>Skólar</Button>
+                </Link>
             </Box>
             <Box style={styles_navbar.individualButtonBox}>
                 <Button style={styles_navbar.button}>Button 2</Button>
             </Box>
             </Box>
         </div>
-        <Typography variant="h6">Your App Name</Typography>
         </Toolbar>
         </AppBar>
         </div>
