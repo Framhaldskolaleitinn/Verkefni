@@ -29,7 +29,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/school-list" element={<SchoolList jsonData={jsonData} />} />
-        <Route path="/school-list/school/:id" element={<SchoolPage jsonData={jsonData} />} />
+        <Route path="/school-list/school/:nafn" element={<SchoolPage jsonData={jsonData} />} />
       </Routes>
     </Router>
   );
@@ -37,9 +37,11 @@ const App = () => {
 
 const Home = () => {
   return (
+    <>
     <div>
       <Header/>
     </div>
+    </>
   );
 };
 

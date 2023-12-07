@@ -54,6 +54,9 @@ const styles_navbar = {
     appName: {
       color: 'white',
     },
+    HomeButton: {
+      color: '#545657',
+    }
 };
 
 
@@ -66,7 +69,6 @@ const Header = () => {
         <AppBar position="Static">
         <StyledToolbar>
             <OutdoorGrillIcon sx={{fontSize:30}}> </OutdoorGrillIcon>
-            
             <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
             Framhaldskólaleitinn
             </Typography>
@@ -76,9 +78,10 @@ const Header = () => {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
-            
             >
+            <Link to="/" style={styles_navbar.HomeButton}>
             <HomeIcon sx={{fontSize:40}}/>
+            </Link>
             </IconButton>
         </StyledToolbar>
         </AppBar>
