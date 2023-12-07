@@ -1,0 +1,115 @@
+import React, { useState, useEffect } from 'react';
+
+import './App.css';
+import Header from "./header"
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import OutdoorGrillIcon from '@mui/icons-material/OutdoorGrill';
+import  Container  from '@mui/material/Container';
+
+const containerStyle = {
+  height: '100vh',
+  display: 'flex',
+};
+
+const verticalCellsStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  flex: 1,
+};
+
+const cellStyle = {
+  flex: 1,
+  margin: '8px', // Add margin for spacing between cells
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  textAlign: 'center',
+};
+
+const cellAboveStyle = {
+  backgroundColor: '#FFD700',
+  ...cellStyle,
+};
+
+const cellBelowStyle = {
+  backgroundColor: '#87CEEB',
+  ...cellStyle,
+};
+
+const sideCellStyle = {
+  backgroundColor: '#FF6347',
+  width: '50vw',
+  ...cellStyle,
+};
+
+
+function App() {
+  
+
+  
+  const [data, setdata] = useState ({
+    name: '',
+    age: 0,
+    date: "",
+    programming: "",
+  })
+
+
+  useEffect(() => {
+    fetch('/data').then((res) =>
+    res.json().then((data) => {
+        // Setting a data from api
+        setdata({
+            name: data.Name,
+            age: data.Age,
+            date: data.Date,
+            programming: data.programming,
+        });
+    })
+    );
+    }, []);
+
+  return (
+    <>
+      <Header/>
+
+      {/* skoa info */}
+      <div>
+        <Container style={containerStyle}>
+          <Box style={verticalCellsStyle}>
+            <Paper elevation={3} style={cellAboveStyle}>
+              Cell Above
+            </Paper>
+            <Paper elevation={3} style={cellBelowStyle}>
+              Cell Below
+            </Paper>
+          </Box>
+          <Paper elevation={3} style={sideCellStyle}>
+            Side Cell
+          </Paper>
+        </Container>
+      </div>
+
+      {/* brautir */}
+      <div>
+      </div>
+
+
+    </>
+
+  );
+}
+
+export default App;
+
+// dev branch
