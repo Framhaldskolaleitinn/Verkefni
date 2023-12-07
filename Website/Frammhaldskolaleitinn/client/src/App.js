@@ -37,9 +37,11 @@ const App = () => {
 
 const Home = () => {
   return (
+    <>
     <div>
       <Header/>
     </div>
+    </>
   );
 };
 
