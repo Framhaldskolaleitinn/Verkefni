@@ -53,7 +53,7 @@ const SchoolList = ({ jsonDataProp }) => {
 
       <div className="school-container">
         {filteredSchools.map((school) => (
-          <Link key={school.ID} to={`/school-list/school/${school.ID}`} className="school-box">
+          <Link key={school.nafn} to={`/school-list/school/${school.nafn}`} className="school-box">
             <button>{school.nafn}</button>
           </Link>
         ))}
