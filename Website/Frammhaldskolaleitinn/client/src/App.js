@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import SchoolList from './SchoolList';
 import SchoolPage from './SchoolPage';
+import Header from './header'
 import './App.css';
 
 const App = () => {
@@ -37,7 +38,7 @@ const App = () => {
 const Home = () => {
   return (
     <div>
-      <h1>Frammhaldskolaleitinn</h1>
+      <Header/>
       <Link to="/school-list">
         <button>Go to School List</button>
       </Link>

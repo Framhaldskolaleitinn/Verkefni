@@ -19,7 +19,6 @@ const SchoolPage = ({ jsonData }) => {
     <div>
         <Link to="/school-list">Go Back to School List</Link>
       <h2>{school.nafn}</h2>
-      <p>ID: {school.ID}</p>
       <p>Total Students: {school.heildarnemendur}</p>
       <p>Utskriftarnemenda: {school.fjoldiUtskriftarnemenda}</p>
     </div>
