@@ -4,13 +4,13 @@ import { useParams, Link } from 'react-router-dom';
 import Header from './header';
 
 const SchoolPage = ({ jsonData }) => {
-  const { id } = useParams();
+  const { nafn } = useParams();
 
   useEffect(() => {
     // Additional logic or side effects related to the school data can be added here
-  }, [id, jsonData]);
+  }, [nafn, jsonData]);
 
-  const school = jsonData ? jsonData.find((school) => school.ID.toString() === id) : null;
+  const school = jsonData ? jsonData.find((school) => school.nafn.toString() === nafn) : null;
 
   if (!school) {
     return <div>School not found</div>;
