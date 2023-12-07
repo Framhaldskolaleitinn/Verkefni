@@ -39,11 +39,9 @@ const Home = () => {
   return (
     <div>
       <Header/>
-      <Link to="/school-list">
-        <button>Go to School List</button>
-      </Link>
     </div>
   );
 };
 
 export default App;
+

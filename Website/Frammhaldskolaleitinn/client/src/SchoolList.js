@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const SchoolList = ({ jsonDataProp }) => {
   const [jsonData, setJsonData] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,6 +23,17 @@ const SchoolList = ({ jsonDataProp }) => {
     fetchData();
   }, []);
 
+  // Filter schools based on searchQuery
+  const filteredSchools = jsonData
+    ? jsonData.filter((school) =>
+        school.majors.some((major) => major.toLowerCase().includes(searchQuery.toLowerCase()))
+      )
+    : [];
+
+  const handleSearch = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
   if (jsonData === null) {
     return <div>Loading...</div>;
   }
@@ -30,8 +42,17 @@ const SchoolList = ({ jsonDataProp }) => {
     <div>
       <h1>List of Schools</h1>
       <Link to="/">Go Back to Home page</Link>
+
+      {/* Search bar */}
+      <input
+        type="text"
+        placeholder="Search by major..."
+        value={searchQuery}
+        onChange={handleSearch}
+      />
+
       <div className="school-container">
-        {jsonData.map((school) => (
+        {filteredSchools.map((school) => (
           <Link key={school.ID} to={`/school-list/school/${school.ID}`} className="school-box">
             <button>{school.nafn}</button>
           </Link>

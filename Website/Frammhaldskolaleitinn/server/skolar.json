@@ -1,15 +1,15 @@
 [
-    {"ID":"1","nafn":"Tskoli","heildarnemendur":"2000","fjoldiUtskriftarnemenda":"200"},
-    {"ID":"2","nafn":"Viva Verzlo","heildarnemendur":"500","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"3","nafn":"Kvenno","heildarnemendur":"300","fjoldiUtskriftarnemenda":"280"},
-    {"ID":"4","nafn":"Skoli1","heildarnemendur":"501","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"5","nafn":"Skoli2","heildarnemendur":"502","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"6","nafn":"Skoli3","heildarnemendur":"503","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"7","nafn":"Skoli4","heildarnemendur":"504","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"7","nafn":"Skoli5","heildarnemendur":"505","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"8","nafn":"Skoli6","heildarnemendur":"506","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"9","nafn":"Skoli7","heildarnemendur":"507","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"10","nafn":"Skoli8","heildarnemendur":"508","fjoldiUtskriftarnemenda":"69"},
-    {"ID":"11","nafn":"Skoli9","heildarnemendur":"509","fjoldiUtskriftarnemenda":"69"}
-    
-]
+    {"ID":"1","nafn":"Tskoli","heildarnemendur":"2000","fjoldiUtskriftarnemenda":"200", "majors": ["Computer Science", "Engineering", "Information Technology", "Data Science"]},
+    {"ID":"2","nafn":"Viva Verzlo","heildarnemendur":"500","fjoldiUtskriftarnemenda":"69", "majors": ["Business Administration", "Marketing", "Finance", "International Business"]},
+    {"ID":"3","nafn":"Kvenno","heildarnemendur":"300","fjoldiUtskriftarnemenda":"280", "majors": ["Gender Studies", "Sociology", "Psychology", "Anthropology"]},
+    {"ID":"4","nafn":"Skoli1","heildarnemendur":"501","fjoldiUtskriftarnemenda":"69", "majors": ["Physics", "Mathematics", "Chemistry", "Astrophysics"]},
+    {"ID":"5","nafn":"Skoli2","heildarnemendur":"502","fjoldiUtskriftarnemenda":"69", "majors": ["Chemistry", "Biology", "Environmental Science", "Geology"]},
+    {"ID":"6","nafn":"Skoli3","heildarnemendur":"503","fjoldiUtskriftarnemenda":"69", "majors": ["Art History", "Literature", "Fine Arts", "Creative Writing"]},
+    {"ID":"7","nafn":"Skoli4","heildarnemendur":"504","fjoldiUtskriftarnemenda":"69", "majors": ["Psychology", "Counseling", "Social Work", "Human Services"]},
+    {"ID":"8","nafn":"Skoli5","heildarnemendur":"505","fjoldiUtskriftarnemenda":"69", "majors": ["Environmental Science", "Geology", "Ecology", "Natural Resource Management"]},
+    {"ID":"9","nafn":"Skoli6","heildarnemendur":"506","fjoldiUtskriftarnemenda":"69", "majors": ["Political Science", "International Relations", "Public Administration", "Diplomacy"]},
+    {"ID":"10","nafn":"Skoli7","heildarnemendur":"507","fjoldiUtskriftarnemenda":"69", "majors": ["Economics", "Finance", "Accounting", "Business Analytics"]},
+    {"ID":"11","nafn":"Skoli8","heildarnemendur":"508","fjoldiUtskriftarnemenda":"69", "majors": ["History", "Anthropology", "Archaeology", "Museum Studies"]},
+    {"ID":"12","nafn":"Skoli9","heildarnemendur":"509","fjoldiUtskriftarnemenda":"69", "majors": ["Computer Engineering", "Electrical Engineering", "Mechanical Engineering", "Aerospace Engineering"]}
+  ]
+  

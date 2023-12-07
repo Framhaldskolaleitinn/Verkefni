@@ -21,6 +21,12 @@ const SchoolPage = ({ jsonData }) => {
       <h2>{school.nafn}</h2>
       <p>Total Students: {school.heildarnemendur}</p>
       <p>Utskriftarnemenda: {school.fjoldiUtskriftarnemenda}</p>
+      <h3>Majors:</h3>
+      <ul>
+        {school.majors.map((major, index) => (
+          <li key={index}>{major}</li>
+        ))}
+      </ul>
     </div>
   );
 };
