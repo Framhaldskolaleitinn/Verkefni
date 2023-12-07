@@ -27,7 +27,7 @@ const SchoolList = ({ jsonDataProp }) => {
   // Filter schools based on searchQuery
   const filteredSchools = jsonData
     ? jsonData.filter((school) =>
-        school.majors.some((major) => major.toLowerCase().includes(searchQuery.toLowerCase()))
+        school.brautir.some((major) => major[0].toLowerCase().includes(searchQuery.toLowerCase()))
       )
     : [];
 

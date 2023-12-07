@@ -15,6 +15,10 @@ const SchoolPage = ({ jsonData }) => {
   if (!school) {
     return <div>School not found</div>;
   }
+  const acceptedSum =
+    school.val && school.val.accepted
+      ? school.val.accepted.karlar + school.val.accepted.konur + school.val.accepted.annad
+      : 0;
 
   return (
     <>
@@ -24,12 +28,12 @@ const SchoolPage = ({ jsonData }) => {
       <div>
         <Link to="/school-list">Go Back to School List</Link>
       <h2>{school.nafn}</h2>
-      <p>Total Students: {school.heildarnemendur}</p>
+      <p>Total Students: {acceptedSum}</p>
       <p>Utskriftarnemenda: {school.fjoldiUtskriftarnemenda}</p>
       <h3>Majors:</h3>
       <ul>
-        {school.majors.map((major, index) => (
-          <li key={index}>{major}</li>
+        {school.brautir.map((brautir, index) => (
+          <li key={index}>{brautir}</li>
         ))}
       </ul>
     </div>
