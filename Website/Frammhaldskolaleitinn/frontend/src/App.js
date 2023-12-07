@@ -8,68 +8,6 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import OutdoorGrillIcon from '@mui/icons-material/OutdoorGrill';
-import  Container  from '@mui/material/Container';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-
-const containerStyle = {
-  height: '100vh',
-  display: 'flex',
-  maxWidth: "none"
-};
-
-const verticalCellsStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  flex: 1,
-};
-
-const cellStyle = {
-  flex: 1,
-  margin: '8px', // Add margin for spacing between cells
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  textAlign: 'center',
-};
-
-const cellAboveStyle = {
-  backgroundColor: '#FFD700',
-  ...cellStyle,
-};
-
-const cellBelowStyle = {
-  backgroundColor: '#87CEEB',
-  ...cellStyle,
-};
-
-const sideCellStyle = {
-  backgroundColor: '#FF6347',
-  width: '25vw',
-  margin: '8px', // Add margin for spacing between cells
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  textAlign: 'center',
-  /* ...cellStyle, */
-  overflowY: 'auto', // Make the side cell scrollable
-  overflowX: 'hidden', // Hide horizontal overflow
-};
-
-const itemBoxStyle = {
-  backgroundColor: '#F0E68C',
-  padding: '8px',
-  height: '50px', // Fixed height for each item box
-  width: '100%'
-};
-
 
 function App() {
   
@@ -103,36 +41,6 @@ function App() {
   return (
     <>
       <Header/>
-
-      {/* skoa info */}
-      <div>
-        <Container style={containerStyle}>
-          <Box style={verticalCellsStyle}>
-            <Paper elevation={3} style={cellAboveStyle}>
-              Cell Above
-            </Paper>
-            <Paper elevation={3} style={cellBelowStyle}>
-              Cell Below
-            </Paper>
-          </Box>
-          <Paper elevation={3} style={sideCellStyle}>
-            <List style={{ padding: 0, maxHeight: '100%',  width: "100%"}}>
-            {items.map((item, index) => (
-              <ListItem key={index}>
-                <Box style={itemBoxStyle}>
-                  {/* Each item is wrapped in a Box */}
-                  {item}
-                </Box>
-              </ListItem>
-            ))}
-            </List>
-          </Paper>
-        </Container>
-      </div>
-
-      {/* brautir */}
-      <div>
-      </div>
 
 
     </>
