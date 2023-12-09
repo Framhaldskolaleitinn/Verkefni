@@ -2,7 +2,7 @@
         17:00 - 19:00
                 Var að vinna í því að tengjast við MongoDB. og setti einnig skolar.json skjalið hans Hremma inn í databasið þannig hann getur notað mongodb fyrir gognin sín í staðinn fyrir json skjal. Eyddi líka smá tíma í að læra á MongoDB og hvernig það virkar.
 
-        20:15 - 10:10
+        20:15 - 22:10
                 - video um MongoDB
                 - Bjó til annað version 
                 - notaði ChatGPT til þess að generatea gögn í db.
@@ -10,14 +10,21 @@
 
 8.des
         21:15 - 22:25
-                - Læra á NoSQL databse structure
+                - Læra á NoSQL database structure
                 - Skaust út í búð (20 min)
                 - Hætti því það var ekki mikill fókus. Smá pása.
 
+        15:00 - 18:00
+                - Laga errors:
+                        - engin bil í nöfnum (donso)
+                        - nokkur errors í brautum. ([ 'EnglishLiterature,false' ] -> [ 'EnglishLiterature', false ]) (donso)
+                - Hvernig er hægt að expanda Databaseið
+                        - Hafa annað collection með Brautum
+                        - Tengja 2 collectionin saman
+                        - Kannski er það ekki einu sinni worth it. Gæti verið að það er betra að hafa þetta allt í einu collectioni.
 
-Errors in database:
-        - engin bil í nöfnum
-        - nokkur errors í brautum. ([ 'EnglishLiterature,false' ] -> [ 'EnglishLiterature', false ])
+                - Er að vinna í því að hafa betri gögn í brautum.
+
 
 
 
@@ -35,3 +42,8 @@ skolar collection
 - acceptedKvenna
 - fenguFyrstaVal
 - fenguAnnadval
+
+Brautir Collection
+- nafn
+- utskrifartimiAnnir
+- studentsprof
