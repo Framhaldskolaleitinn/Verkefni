@@ -8,6 +8,17 @@
                 - notaði ChatGPT til þess að generatea gögn í db.
                 - gogn komin inn med dummydata en bil vantar i nofn
 
+8.des
+        21:15 - 22:25
+                - Læra á NoSQL databse structure
+                - Skaust út í búð (20 min)
+                - Hætti því það var ekki mikill fókus. Smá pása.
+
+
+Errors in database:
+        - engin bil í nöfnum
+        - nokkur errors í brautum. ([ 'EnglishLiterature,false' ] -> [ 'EnglishLiterature', false ])
+
 
 
 skolar collection
