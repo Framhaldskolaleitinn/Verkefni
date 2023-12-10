@@ -14,6 +14,7 @@
                 - Skaust út í búð (20 min)
                 - Hætti því það var ekki mikill fókus. Smá pása.
 
+9.des
         15:00 - 18:00
                 - Laga errors:
                         - engin bil í nöfnum (donso)
@@ -25,25 +26,9 @@
 
                 - Er að vinna í því að hafa betri gögn í brautum.
 
+10.des
+        13:30 - 15:00
+                - Halda áfram að gera gögn betri.
+                - checkea á hinum strákunum og hvernig þeir eru að vinna með gögnin.(engin að svara : /)
+                - Fara að gera skýrslu
 
-
-
-skolar collection
-- nafn
-- konur
-- karlar
-- annadKyn
-- brautir[nafnbrautar, studentsprof]
-- fyrstvalKarla
-- fyrstavalKvenna
-- annadvalKarla
-- annadvalKvenna
-- acceptedKarlar
-- acceptedKvenna
-- fenguFyrstaVal
-- fenguAnnadval
-
-Brautir Collection
-- nafn
-- utskrifartimiAnnir
-- studentsprof
