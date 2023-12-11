@@ -1,5 +1,22 @@
-// Viktor vann í þessu frá 17:00 til 22:00 (07/12/2023)
+const express = require('express')
+const app = express()
+const cors = require('cors');
+const port = 3001;
 
+app.use(cors());
+app.use(express.json());
+
+app.get('/api/data',(req,res) => {
+    const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
+    res.json(jsonData)
+})
+
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`)
+})
+
+// Viktor vann í þessu frá 17:00 til 22:00 (07/12/2023)
+/*
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const uri = "mongodb+srv://admin:admin123@cluster0.jvmjfif.mongodb.net/Framhaldsskolaleitin?retryWrites=true&w=majority";
@@ -37,11 +54,7 @@ app.get('/api/data', async (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
 })
-
-
-
-
-/* async function run() {
+ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
@@ -72,30 +85,4 @@ http.createServer(function (request, response) {
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
-
-*/
-
-
-
-
-
-
-/*
-const express = require('express')
-const app = express()
-const cors = require('cors');
-const port = 3001;
-
-app.use(cors());
-app.use(express.json());
-
-app.get('/api/data',(req,res) => {
-    const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
-    // const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
-    res.json(jsonData)
-})
-
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`)
-})
 */

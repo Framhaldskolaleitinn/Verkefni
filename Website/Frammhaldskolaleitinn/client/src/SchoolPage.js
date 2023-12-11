@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Header from './header';
+import './SchoolPage.css'
 
 const SchoolPage = ({ jsonData }) => {
   const { nafn } = useParams();
@@ -15,23 +16,35 @@ const SchoolPage = ({ jsonData }) => {
   if (!school) {
     return <div>School not found</div>;
   }
-
+  const acceptedSum =
+    school.val && school.val.accepted
+      ? school.val.accepted.karlar + school.val.accepted.konur + school.val.accepted.annad
+      : 0;
+  // Lorem ipsum texti myndi breytast eftir skóla setti þetta inn til að fylla síðuna for now
   return (
     <>
     <div>
     <Header/>
     </div>
-      <div>
-        <Link to="/school-list">Go Back to School List</Link>
+      <div className="school-page-container">
+      <div className='school-info'>
       <h2>{school.nafn}</h2>
-      <p>Total Students: {school.heildarnemendur}</p>
-      <p>Utskriftarnemenda: {school.fjoldiUtskriftarnemenda}</p>
-      <h3>Majors:</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Duis congue purus quis scelerisque vehicula. Praesent eget eros libero. Pellentesque pellentesque 
+        bibendum sapien, at rhoncus nisl pharetra maximus. Integer nec mauris id urna posuere tempus. Suspendisse 
+        porttitor rutrum purus non vehicula. Maecenas elementum vel eros a hendrerit. Vestibulum feugiat in neque 
+        in consectetur. Nullam nec ultricies erat. Nam dolor eros, mattis eu tempus sed, lacinia a eros. Mauris lacinia 
+        varius sapien quis molestie. Donec sed tincidunt quam. Nulla facilisi. Sed sit amet urna felis.</p>
+      <p>Total Students: {acceptedSum}</p>
+      </div>
+      <div className='majors-list'>
+      <h3>Brautir :</h3>
       <ul>
-        {school.majors.map((major, index) => (
-          <li key={index}>{major}</li>
-        ))}
+        {school.brautir.map((brautir, index) => (
+          <li key={index}>{brautir}</li>
+          ))}
       </ul>
+      </div>
     </div>
     </>
   );
