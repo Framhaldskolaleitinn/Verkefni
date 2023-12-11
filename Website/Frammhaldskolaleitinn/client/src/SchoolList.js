@@ -31,7 +31,7 @@ const SchoolList = ({ jsonDataProp }) => {
         school.brautir.some((major) => major[0].toLowerCase().includes(searchQuery.toLowerCase()))
       )
     : [];
-  
+    
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
   };
@@ -51,7 +51,7 @@ const SchoolList = ({ jsonDataProp }) => {
       <input
         type="text"
         placeholder="Search by major..."
-        value={searchQuery}
+        value={searchQuery} 
         onChange={handleSearch}
       />
 
