@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './header';
+import './SchoolList.css'
 
 const SchoolList = ({ jsonDataProp }) => {
   const [jsonData, setJsonData] = useState(null);
@@ -44,10 +45,8 @@ const SchoolList = ({ jsonDataProp }) => {
     <div>
     <Header/>
     </div>
-    <div>
+    <div className='school-list-container'>
       <h1>List of Schools</h1>
-      <Link to="/">Go Back to Home page</Link>
-
       {/* Search bar */}
       <input
         type="text"

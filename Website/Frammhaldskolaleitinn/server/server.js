@@ -8,7 +8,6 @@ app.use(express.json());
 
 app.get('/api/data',(req,res) => {
     const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
-    // const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
     res.json(jsonData)
 })
 
