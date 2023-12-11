@@ -1,0 +1,27 @@
+/* SchoolPage.css */
+.school-page-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  
+  .school-info {
+    flex: 1;
+  }
+  
+  .majors-list {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .majors-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .majors-list li {
+    margin-bottom: 8px;
+  }
+  

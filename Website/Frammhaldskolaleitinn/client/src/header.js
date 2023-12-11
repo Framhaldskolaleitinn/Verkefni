@@ -55,7 +55,7 @@ const styles_navbar = {
       color: 'white',
     },
     HomeButton: {
-      color: '#545657',
+      color: 'white',
     }
 };
 
