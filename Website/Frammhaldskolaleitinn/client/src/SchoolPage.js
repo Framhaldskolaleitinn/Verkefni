@@ -11,10 +11,10 @@ const SchoolPage = ({ jsonData }) => {
   }, [nafn, jsonData]);
 
   const school = jsonData ? jsonData.find((school) => school.nafn.toString() === nafn) : null;
-
   if (!school) {
     return <div>School not found</div>;
   }
+  console.log('Image URL:', school.img);
   const acceptedSum =
     school.val && school.val.accepted
       ? school.val.accepted.karlar + school.val.accepted.konur + school.val.accepted.annad
@@ -35,12 +35,14 @@ const SchoolPage = ({ jsonData }) => {
   const acceptedPercentageKarlar = calculatePercentage(school.val.accepted.karlar, acceptedSum);
   const acceptedPercentageKonur = calculatePercentage(school.val.accepted.konur, acceptedSum);
   const acceptedPercentageAnnad = calculatePercentage(school.val.accepted.annad, acceptedSum);
-  const fyrstavalPercentageKarlar = calculatePercentage(school.val.fyrstaval.karlar, acceptedSum);
-  const fyrstavalPercentageKonur = calculatePercentage(school.val.fyrstaval.konur, acceptedSum);
-  const fyrstavalPercentageAnnad = calculatePercentage(school.val.fyrstaval.annad, acceptedSum);
-  const annadvalPercentageKarlar = calculatePercentage(school.val.annadval.karlar, acceptedSum);
-  const annadvalPercentageKonur = calculatePercentage(school.val.annadval.konur, acceptedSum);
-  const annadvalPercentageAnnad = calculatePercentage(school.val.annadval.annad, acceptedSum);
+  const fyrstavalPercentageKarlar = calculatePercentage(school.val.fyrstaval.karlar, fyrstavalSum);
+  const fyrstavalPercentageKonur = calculatePercentage(school.val.fyrstaval.konur, fyrstavalSum);
+  const fyrstavalPercentageAnnad = calculatePercentage(school.val.fyrstaval.annad, fyrstavalSum);
+  const annadvalPercentageKarlar = calculatePercentage(school.val.annadval.karlar, annadvalSum);
+  const annadvalPercentageKonur = calculatePercentage(school.val.annadval.konur, annadvalSum);
+  const annadvalPercentageAnnad = calculatePercentage(school.val.annadval.annad, annadvalSum);
+  const majorsWithStudentsProf = school.brautir.filter((major) => major.studentsprof);
+  const majorsWithoutStudentsProf = school.brautir.filter((major) => !major.studentsprof);
   // Lorem ipsum texti myndi breytast eftir skóla setti þetta inn til að fylla síðuna for now
   return (
     <>
@@ -50,6 +52,7 @@ const SchoolPage = ({ jsonData }) => {
       <div className="school-page-container">
       <div className='school-info'>
       <h2>{school.nafn}</h2>
+      <img src={school.img} alt={`Logo of ${school.nafn}`} className='skola-logo' />
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Duis congue purus quis scelerisque vehicula. Praesent eget eros libero. Pellentesque pellentesque 
         bibendum sapien, at rhoncus nisl pharetra maximus. Integer nec mauris id urna posuere tempus. Suspendisse 
@@ -57,19 +60,19 @@ const SchoolPage = ({ jsonData }) => {
         in consectetur. Nullam nec ultricies erat. Nam dolor eros, mattis eu tempus sed, lacinia a eros. Mauris lacinia 
         varius sapien quis molestie. Donec sed tincidunt quam. Nulla facilisi. Sed sit amet urna felis.</p>
         <h3>Umskóknir</h3>
-          <h3>Accepted: {acceptedSum}</h3>
+          <h3>Hleypt inn: {acceptedSum}</h3>
           <ul>
             <li>Karlar: {school.val.accepted.karlar} ({acceptedPercentageKarlar}%)</li>
             <li>Konur: {school.val.accepted.konur} ({acceptedPercentageKonur}%)</li>
             <li>Annad: {school.val.accepted.annad} ({acceptedPercentageAnnad}%)</li>
           </ul>
-          <h3>Fyrstaval: {fyrstavalSum}</h3>
+          <h3>Fyrsta val: {fyrstavalSum}</h3>
           <ul>
             <li>Karlar: {school.val.fyrstaval.karlar} ({fyrstavalPercentageKarlar}%)</li>
             <li>Konur: {school.val.fyrstaval.konur} ({fyrstavalPercentageKonur}%)</li>
             <li>Annad: {school.val.fyrstaval.annad} ({fyrstavalPercentageAnnad}%)</li>
           </ul>
-          <h3>Annadval: {annadvalSum}</h3>
+          <h3>Annað val: {annadvalSum}</h3>
           <ul>
             <li>Karlar: {school.val.annadval.karlar} ({annadvalPercentageKarlar}%)</li>
             <li>Konur: {school.val.annadval.konur} ({annadvalPercentageKonur}%)</li>
@@ -77,13 +80,26 @@ const SchoolPage = ({ jsonData }) => {
           </ul>
       </div>
       <div className='majors-list'>
-      <h3>Brautir :</h3>
-      <ul>
-        {school.brautir.map((major, index) => (
-          <li key={index}>{major.nafn} {major.studentsprof ? '(Studentsprof)' : '(Ekki Studentsprof)'}
-          </li>
-          ))}
-      </ul>
+      <h3>Brautir með Stúdentsprófi</h3>
+          <ul>
+            {majorsWithStudentsProf.map((major, index) => (
+              <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
+            ))}
+          </ul>
+          <h3>Brautir án Stúdentsprófs</h3>
+          <ul>
+            {majorsWithoutStudentsProf.map((major, index) => (
+              <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
+            ))}
+          </ul>
+      <iframe
+            title={`Google Maps - ${school.nafn}`}
+            src={school.location}
+            width="400"
+            height="300"
+            allowFullScreen
+            loading="lazy"
+            ></iframe>
       </div>
     </div>
     </>

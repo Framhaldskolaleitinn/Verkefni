@@ -1,7 +1,4 @@
 
-
-// Viktor vann í þessu frá 17:00 til 22:00 (07/12/2023)
-
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const uri = "mongodb+srv://admin:admin123@cluster0.jvmjfif.mongodb.net/Framhaldsskolaleitin?retryWrites=true&w=majority";
@@ -32,10 +29,7 @@ app.get('/api/data', async (req, res) => {
     const result = myColl.find({})
     const allValues = await result.toArray();
     res.json(allValues);
-
-    await client.close()
 });
 
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`)
-})
+    console.log(`Server running on port ${port}`) 

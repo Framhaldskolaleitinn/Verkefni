@@ -54,12 +54,12 @@ const SchoolList = ({ jsonDataProp }) => {
     <Header/>
     </div>
     <div className='school-list-container'>
-      <h1>List of Schools</h1>
+      <h1>Listi af Skólum</h1>
       {/* Search bar */}
       <input
         type="text"
-        placeholder="Search by major..."
-        value={searchQuery} 
+        placeholder="Leita eftir braut..."
+        value={searchQuery}
         onChange={handleSearch}
       />
       <label>
@@ -68,15 +68,16 @@ const SchoolList = ({ jsonDataProp }) => {
             checked={includeStudentsProf}
             onChange={handleCheckboxChange}
           />
-          Include Professional Majors
+          Brautir með Stúdentsprófi
         </label>
 
       <div className="school-container">
-        {/* {filteredSchools.map((school) => (
-          <Link key={school.nafn} to={`/school-list/school/${school.nafn}`} className="school-box">
-            <button>{school.nafn}</button>
+        {filteredSchools.map((school) => (
+          <Link key={school.nafn} to={`/school-list/school/${school.nafn}`} className="school-box"> 
+            <button>
+             {school.nafn}</button>
           </Link>
-        ))} */}
+        ))}
       </div>
     </div>
     </>
