@@ -5,7 +5,7 @@ const port = 3001;
 
 app.use(cors());
 app.use(express.json());
-
+// þetta er bara fyrir mig (hreim) þar sem tenginn við mongo virkar ekki hjá mér
 app.get('/api/data',(req,res) => {
     const jsonData = require('/Users/accent/Documents/Skóli/VefForritun2/Verkefni/Verkefni/Website/Frammhaldskolaleitinn/server/skolar.json')
     res.json(jsonData)
