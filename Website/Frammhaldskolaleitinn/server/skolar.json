@@ -25,27 +25,31 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Engineering",
-        true
-      ],
-      [
-        "InformationTechnology",
-        true
-      ],
-      [
-        "DataScience",
-        true
-      ]
+      {
+        "nafn": "Computer Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Engineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Information Technology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Data Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e775f",
-    "nafn": "Verslunarskólinn",
+    "nafn": "Verzlunarskóli Íslands",
     "kynjahlutfoll": {
       "karlar": 300,
       "konur": 200,
@@ -69,46 +73,56 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Engineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "BusinessAdministration",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "EnvironmentalScience",
-        false
-      ],
-      [
-        "History",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ]
+      {
+        "nafn": "Computer Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Engineering",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Business Administration",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Environmental Science",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "English Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Art and Design",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
@@ -137,51 +151,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "Computer Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Business Administration",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Chemistry",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Political Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Graphic Design",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "English Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7761",
-    "nafn": "FjölbrautaskólinníBreiðholti",
+    "nafn": "Fjölbrautaskólinn í Breiðholti",
     "kynjahlutfoll": {
       "karlar": 200,
       "konur": 250,
@@ -205,51 +229,61 @@
       }
     },
     "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Philosophy",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
+      {
+        "nafn": "Environmental Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Art and Design",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Philosophy",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Computer Engineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "English Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7762",
-    "nafn": "FjölbrautaskólinníGarðabæ",
+    "nafn": "Fjölbrautaskólinn í Garðabæ",
     "kynjahlutfoll": {
       "karlar": 350,
       "konur": 400,
@@ -273,51 +307,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ChemicalEngineering",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Finance",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "GraphicDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7763",
-    "nafn": "FjölbrautaskólinnviðÁrmúla",
+    "nafn": "Fjölbrautaskólinn við Ármúla",
     "kynjahlutfoll": {
       "karlar": 180,
       "konur": 220,
@@ -341,51 +385,61 @@
       }
     },
     "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
+      {
+        "nafn": "EnvironmentalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerEngineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7764",
-    "nafn": "FjölbrautaskóliNorðurlandsvestra",
+    "nafn": "Fjölbrautaskóli Norðurlands vestra",
     "kynjahlutfoll": {
       "karlar": 280,
       "konur": 320,
@@ -409,51 +463,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "BusinessAdministration",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Chemistry",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "GraphicDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7765",
-    "nafn": "FjölbrautaskóliSnæfellinga",
+    "nafn": "Fjölbrautaskóli Snæfellinga",
     "kynjahlutfoll": {
       "karlar": 250,
       "konur": 300,
@@ -477,51 +541,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "BusinessAdministration",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Chemistry",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "GraphicDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7766",
-    "nafn": "FjölbrautaskóliSuðurlands",
+    "nafn": "Fjölbrautaskóli Suðurlands",
     "kynjahlutfoll": {
       "karlar": 200,
       "konur": 250,
@@ -545,51 +619,61 @@
       }
     },
     "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Philosophy",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
+      {
+        "nafn": "EnvironmentalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Philosophy",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerEngineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7767",
-    "nafn": "FjölbrautaskóliSuðurnesja",
+    "nafn": "Fjölbrautaskóli Suðurnesja",
     "kynjahlutfoll": {
       "karlar": 350,
       "konur": 400,
@@ -613,51 +697,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ChemicalEngineering",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Finance",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "GraphicDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7768",
-    "nafn": "FjölbrautaskóliVesturlands",
+    "nafn": "Fjölbrautaskóli Vesturlands",
     "kynjahlutfoll": {
       "karlar": 180,
       "konur": 220,
@@ -681,51 +775,61 @@
       }
     },
     "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
+      {
+        "nafn": "EnvironmentalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerEngineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7769",
-    "nafn": "FlensborgarskólinníHafnarfirði",
+    "nafn": "Flensborgarskólinn í Hafnarfirði",
     "kynjahlutfoll": {
       "karlar": 280,
       "konur": 320,
@@ -749,51 +853,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Psychology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "BusinessAdministration",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Chemistry",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "GraphicDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e776a",
-    "nafn": "FramhaldsskólinnáHúsavík",
+    "nafn": "Framhaldsskólinn á Húsavík",
     "kynjahlutfoll": {
       "karlar": 220,
       "konur": 180,
@@ -817,51 +931,61 @@
       }
     },
     "brautir": [
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Geography",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "History",
-        true
-      ],
-      [
-        "Literature",
-        false
-      ],
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Music",
-        false
-      ]
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Geography",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Chemistry",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Music",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e776b",
-    "nafn": "FramhaldsskólinnáLaugum",
+    "nafn": "Framhaldsskólinn á Laugum",
     "kynjahlutfoll": {
       "karlar": 180,
       "konur": 200,
@@ -885,51 +1009,61 @@
       }
     },
     "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
+      {
+        "nafn": "EnvironmentalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerEngineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e776c",
-    "nafn": "FramhaldsskólinníAustur-Skaftafellssýslu",
+    "nafn": "Framhaldsskólinn í Austur - Skaftafellssýslu",
     "kynjahlutfoll": {
       "karlar": 150,
       "konur": 180,
@@ -953,118 +1087,61 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature,false"
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e776d",
-    "nafn": "FramhaldsskólinníMosfellsbæ",
-    "kynjahlutfoll": {
-      "karlar": 190,
-      "konur": 220,
-      "annad": 110
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 95,
-        "konur": 110,
-        "annad": 55
+      {
+        "nafn": "Computer Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
       },
-      "annadval": {
-        "karlar": 65,
-        "konur": 80,
-        "annad": 45
+      {
+        "nafn": "Chemical Engineering",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
       },
-      "accepted": {
-        "karlar": 75,
-        "konur": 100,
-        "annad": 50
+      {
+        "nafn": "Psychology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Finance",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Political Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Graphic Design",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "English Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
       }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
     ]
   },
   {
     "_id": "657241f9916ac9518a4e776e",
-    "nafn": "FramhaldsskólinníVestmannaeyjum",
+    "nafn": "Framhaldsskólinn í Vestmannaeyjum",
     "kynjahlutfoll": {
       "karlar": 210,
       "konur": 250,
@@ -1088,46 +1165,56 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
+      {
+        "nafn": "EnvironmentalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerEngineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
@@ -1156,51 +1243,61 @@
       }
     },
     "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
+      {
+        "nafn": "EnvironmentalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Economics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "PoliticalScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerEngineering",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "EnglishLiterature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Marketing",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7770",
-    "nafn": "HússtjórnarskóliReykjavíkur",
+    "nafn": "Hússtjórnarskóli Reykjavíkur",
     "kynjahlutfoll": {
       "karlar": 200,
       "konur": 180,
@@ -1224,51 +1321,61 @@
       }
     },
     "brautir": [
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Geography",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "History",
-        true
-      ],
-      [
-        "Literature",
-        false
-      ],
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Music",
-        false
-      ]
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Physics",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Geography",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ArtandDesign",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Chemistry",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "History",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "ComputerScience",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Music",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      }
     ]
   },
   {
     "_id": "657241f9916ac9518a4e7771",
-    "nafn": "KvennaskólinníReykjavík",
+    "nafn": "Kvennaskólinn í Reykjavík",
     "kynjahlutfoll": {
       "karlar": 150,
       "konur": 180,
@@ -1292,1268 +1399,56 @@
       }
     },
     "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature,false"
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7772",
-    "nafn": "LandbúnaðarháskóliÍslands",
-    "kynjahlutfoll": {
-      "karlar": 190,
-      "konur": 220,
-      "annad": 110
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 95,
-        "konur": 110,
-        "annad": 55
+      {
+        "nafn": "Computer Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
       },
-      "annadval": {
-        "karlar": 65,
-        "konur": 80,
-        "annad": 45
+      {
+        "nafn": "Chemical Engineering",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
       },
-      "accepted": {
-        "karlar": 75,
-        "konur": 100,
-        "annad": 50
+      {
+        "nafn": "Psychology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Finance",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Biology",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Sociology",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Political Science",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Graphic Design",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "Mathematics",
+        "studentsprof": true,
+        "UtskriftartimiAnnir": 6
+      },
+      {
+        "nafn": "English Literature",
+        "studentsprof": false,
+        "UtskriftartimiAnnir": 6
       }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7773",
-    "nafn": "LandbúnaðarháskóliÍslands",
-    "kynjahlutfoll": {
-      "karlar": 190,
-      "konur": 220,
-      "annad": 110
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 95,
-        "konur": 110,
-        "annad": 55
-      },
-      "annadval": {
-        "karlar": 65,
-        "konur": 80,
-        "annad": 45
-      },
-      "accepted": {
-        "karlar": 75,
-        "konur": 100,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7774",
-    "nafn": "MenntaskólinnáAkureyri",
-    "kynjahlutfoll": {
-      "karlar": 210,
-      "konur": 250,
-      "annad": 130
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 110,
-        "konur": 130,
-        "annad": 70
-      },
-      "annadval": {
-        "karlar": 80,
-        "konur": 100,
-        "annad": 50
-      },
-      "accepted": {
-        "karlar": 90,
-        "konur": 120,
-        "annad": 60
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7775",
-    "nafn": "MenntaskólinnáÁsbrú",
-    "kynjahlutfoll": {
-      "karlar": 180,
-      "konur": 200,
-      "annad": 120
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 90,
-        "konur": 100,
-        "annad": 60
-      },
-      "annadval": {
-        "karlar": 60,
-        "konur": 80,
-        "annad": 40
-      },
-      "accepted": {
-        "karlar": 70,
-        "konur": 90,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7776",
-    "nafn": "MenntaskólinnáEgilsstöðum",
-    "kynjahlutfoll": {
-      "karlar": 200,
-      "konur": 180,
-      "annad": 100
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 100,
-        "konur": 90,
-        "annad": 50
-      },
-      "annadval": {
-        "karlar": 70,
-        "konur": 60,
-        "annad": 40
-      },
-      "accepted": {
-        "karlar": 80,
-        "konur": 70,
-        "annad": 45
-      }
-    },
-    "brautir": [
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Geography",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "History",
-        true
-      ],
-      [
-        "Literature",
-        false
-      ],
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Music",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7777",
-    "nafn": "MenntaskólinnáÍsafirði",
-    "kynjahlutfoll": {
-      "karlar": 150,
-      "konur": 180,
-      "annad": 80
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 70,
-        "konur": 80,
-        "annad": 40
-      },
-      "annadval": {
-        "karlar": 50,
-        "konur": 60,
-        "annad": 30
-      },
-      "accepted": {
-        "karlar": 60,
-        "konur": 70,
-        "annad": 40
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature,false"
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7778",
-    "nafn": "MenntaskólinnaðLaugarvatni",
-    "kynjahlutfoll": {
-      "karlar": 190,
-      "konur": 220,
-      "annad": 110
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 95,
-        "konur": 110,
-        "annad": 55
-      },
-      "annadval": {
-        "karlar": 65,
-        "konur": 80,
-        "annad": 45
-      },
-      "accepted": {
-        "karlar": 75,
-        "konur": 100,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7779",
-    "nafn": "MenntaskólinnáTröllaskaga",
-    "kynjahlutfoll": {
-      "karlar": 210,
-      "konur": 250,
-      "annad": 130
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 110,
-        "konur": 130,
-        "annad": 70
-      },
-      "annadval": {
-        "karlar": 80,
-        "konur": 100,
-        "annad": 50
-      },
-      "accepted": {
-        "karlar": 90,
-        "konur": 120,
-        "annad": 60
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e777a",
-    "nafn": "MenntaskóliBorgarfjarðar",
-    "kynjahlutfoll": {
-      "karlar": 180,
-      "konur": 200,
-      "annad": 120
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 90,
-        "konur": 100,
-        "annad": 60
-      },
-      "annadval": {
-        "karlar": 60,
-        "konur": 80,
-        "annad": 40
-      },
-      "accepted": {
-        "karlar": 70,
-        "konur": 90,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e777b",
-    "nafn": "MenntaskólinníKópavogi",
-    "kynjahlutfoll": {
-      "karlar": 200,
-      "konur": 180,
-      "annad": 100
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 100,
-        "konur": 90,
-        "annad": 50
-      },
-      "annadval": {
-        "karlar": 70,
-        "konur": 60,
-        "annad": 40
-      },
-      "accepted": {
-        "karlar": 80,
-        "konur": 70,
-        "annad": 45
-      }
-    },
-    "brautir": [
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Geography",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "History",
-        true
-      ],
-      [
-        "Literature",
-        false
-      ],
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Music",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e777c",
-    "nafn": "MenntaskólinníReykjavík",
-    "kynjahlutfoll": {
-      "karlar": 150,
-      "konur": 180,
-      "annad": 80
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 70,
-        "konur": 80,
-        "annad": 40
-      },
-      "annadval": {
-        "karlar": 50,
-        "konur": 60,
-        "annad": 30
-      },
-      "accepted": {
-        "karlar": 60,
-        "konur": 70,
-        "annad": 40
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e777d",
-    "nafn": "Menntaskóliítónlist",
-    "kynjahlutfoll": {
-      "karlar": 190,
-      "konur": 220,
-      "annad": 110
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 95,
-        "konur": 110,
-        "annad": 55
-      },
-      "annadval": {
-        "karlar": 65,
-        "konur": 80,
-        "annad": 45
-      },
-      "accepted": {
-        "karlar": 75,
-        "konur": 100,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e777e",
-    "nafn": "MenntaskólinnviðHamrahlíð",
-    "kynjahlutfoll": {
-      "karlar": 210,
-      "konur": 250,
-      "annad": 130
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 110,
-        "konur": 130,
-        "annad": 70
-      },
-      "annadval": {
-        "karlar": 80,
-        "konur": 100,
-        "annad": 50
-      },
-      "accepted": {
-        "karlar": 90,
-        "konur": 120,
-        "annad": 60
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e777f",
-    "nafn": "MenntaskólinnviðSund",
-    "kynjahlutfoll": {
-      "karlar": 180,
-      "konur": 200,
-      "annad": 120
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 90,
-        "konur": 100,
-        "annad": 60
-      },
-      "annadval": {
-        "karlar": 60,
-        "konur": 80,
-        "annad": 40
-      },
-      "accepted": {
-        "karlar": 70,
-        "konur": 90,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7780",
-    "nafn": "MyndlistaskólinnáAkureyri",
-    "kynjahlutfoll": {
-      "karlar": 200,
-      "konur": 180,
-      "annad": 100
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 100,
-        "konur": 90,
-        "annad": 50
-      },
-      "annadval": {
-        "karlar": 70,
-        "konur": 60,
-        "annad": 40
-      },
-      "accepted": {
-        "karlar": 80,
-        "konur": 70,
-        "annad": 45
-      }
-    },
-    "brautir": [
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Geography",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "History",
-        true
-      ],
-      [
-        "Literature",
-        false
-      ],
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Music",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7781",
-    "nafn": "MyndlistaskólinníReykjavík",
-    "kynjahlutfoll": {
-      "karlar": 150,
-      "konur": 180,
-      "annad": 80
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 70,
-        "konur": 80,
-        "annad": 40
-      },
-      "annadval": {
-        "karlar": 50,
-        "konur": 60,
-        "annad": 30
-      },
-      "accepted": {
-        "karlar": 60,
-        "konur": 70,
-        "annad": 40
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "ChemicalEngineering",
-        false
-      ],
-      [
-        "Psychology",
-        true
-      ],
-      [
-        "Finance",
-        false
-      ],
-      [
-        "Biology",
-        true
-      ],
-      [
-        "Sociology",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7782",
-    "nafn": "VerkmenntaskóliAusturlands",
-    "kynjahlutfoll": {
-      "karlar": 190,
-      "konur": 220,
-      "annad": 110
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 95,
-        "konur": 110,
-        "annad": 55
-      },
-      "annadval": {
-        "karlar": 65,
-        "konur": 80,
-        "annad": 45
-      },
-      "accepted": {
-        "karlar": 75,
-        "konur": 100,
-        "annad": 50
-      }
-    },
-    "brautir": [
-      [
-        "EnvironmentalScience",
-        true
-      ],
-      [
-        "History",
-        false
-      ],
-      [
-        "Economics",
-        true
-      ],
-      [
-        "ArtandDesign",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "ComputerEngineering",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "Marketing",
-        false
-      ]
-    ]
-  },
-  {
-    "_id": "657241f9916ac9518a4e7783",
-    "nafn": "VerkmenntaskólinnáAkureyri",
-    "kynjahlutfoll": {
-      "karlar": 210,
-      "konur": 250,
-      "annad": 130
-    },
-    "val": {
-      "fyrstaval": {
-        "karlar": 110,
-        "konur": 130,
-        "annad": 70
-      },
-      "annadval": {
-        "karlar": 80,
-        "konur": 100,
-        "annad": 50
-      },
-      "accepted": {
-        "karlar": 90,
-        "konur": 120,
-        "annad": 60
-      }
-    },
-    "brautir": [
-      [
-        "ComputerScience",
-        true
-      ],
-      [
-        "Psychology",
-        false
-      ],
-      [
-        "BusinessAdministration",
-        true
-      ],
-      [
-        "Chemistry",
-        false
-      ],
-      [
-        "PoliticalScience",
-        true
-      ],
-      [
-        "Physics",
-        false
-      ],
-      [
-        "Sociology",
-        true
-      ],
-      [
-        "GraphicDesign",
-        false
-      ],
-      [
-        "Mathematics",
-        true
-      ],
-      [
-        "EnglishLiterature",
-        false
-      ]
     ]
   }
 ]
