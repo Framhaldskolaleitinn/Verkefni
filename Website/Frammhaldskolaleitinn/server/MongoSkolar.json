@@ -1,0 +1,866 @@
+[
+{
+        "nafn":"Tækniskólinn", 
+        "kynjahlutfoll" : {
+                "karlar" : 1500,
+                "konur" : 100,
+                "annad" : 400
+        },
+        "val" : {
+                "fyrstaval" : {
+                        "karlar" : 631,
+                        "konur" : 0,
+                        "annad" : 143
+                },
+                "annadval" : {
+                        "karlar" : 855,
+                        "konur" : 2,
+                        "annad" : 236
+                },
+                "accepted" : {
+                        "karlar" : 1337,
+                        "konur" : 2,
+                        "annad" : 420
+                }
+        },
+        "brautir": [
+                ["Computer Science", true], 
+                ["Engineering", true],
+                ["Information Technology", true],
+                ["Data Science", true]
+        ]
+},
+
+{
+        "nafn": "Verslunarskólinn",
+        "kynjahlutfoll": {
+          "karlar": 300,
+          "konur": 200,
+          "annad": 100
+        },
+        "val": {
+          "fyrstaval": {
+            "karlar": 150,
+            "konur": 120,
+            "annad": 80
+          },
+          "annadval": {
+            "karlar": 100,
+            "konur": 80,
+            "annad": 50
+          },
+          "accepted": {
+            "karlar": 120,
+            "konur": 90,
+            "annad": 60
+          }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Engineering", false],
+          ["Psychology", true],
+          ["Business Administration", false],
+          ["Biology", true],
+          ["Environmental Science", false],
+          ["History", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Art and Design", false]
+        ]
+},
+
+{
+        "nafn": "Borgarholtsskóli",
+        "kynjahlutfoll": { "karlar": 250, "konur": 300, "annad": 150 },
+        "val": {
+          "fyrstaval": { "karlar": 120, "konur": 150, "annad": 80 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 100, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+},
+
+{
+        "nafn": "Fjölbrautaskólinn í Breiðholti",
+        "kynjahlutfoll": { "karlar": 200, "konur": 250, "annad": 150 },
+        "val": {
+                "fyrstaval": { "karlar": 100, "konur": 120, "annad": 80 },
+                "annadval": { "karlar": 70, "konur": 90, "annad": 50 },
+                "accepted": { "karlar": 80, "konur": 100, "annad": 60 }
+        },
+        "brautir": [
+                ["Environmental Science", true],
+                ["History", false],
+                ["Economics", true],
+                ["Art and Design", false],
+                ["Biology", true],
+                ["Philosophy", false],
+                ["Computer Engineering", true],
+                ["English Literature", false],
+                ["Mathematics", true],
+                ["Marketing", false]
+        ]
+},
+
+{
+        "nafn": "Fjölbrautaskólinn í Garðabæ",
+        "kynjahlutfoll": { "karlar": 350, "konur": 400, "annad": 200 },
+        "val": {
+          "fyrstaval": { "karlar": 180, "konur": 200, "annad": 120 },
+          "annadval": { "karlar": 120, "konur": 150, "annad": 80 },
+          "accepted": { "karlar": 150, "konur": 180, "annad": 100 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+},
+
+{
+        "nafn": "Fjölbrautaskólinn við Ármúla",
+        "kynjahlutfoll": { "karlar": 180, "konur": 220, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 110, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 70, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+},
+
+{
+        "nafn": "Fjölbrautaskóli Norðurlands vestra",
+        "kynjahlutfoll": { "karlar": 280, "konur": 320, "annad": 180 },
+        "val": {
+          "fyrstaval": { "karlar": 140, "konur": 160, "annad": 100 },
+          "annadval": { "karlar": 100, "konur": 120, "annad": 70 },
+          "accepted": { "karlar": 120, "konur": 140, "annad": 80 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+},
+
+{
+        "nafn": "Fjölbrautaskóli Snæfellinga",
+        "kynjahlutfoll": { "karlar": 250, "konur": 300, "annad": 150 },
+        "val": {
+          "fyrstaval": { "karlar": 120, "konur": 150, "annad": 80 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 100, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+      
+      {
+        "nafn": "Fjölbrautaskóli Suðurlands",
+        "kynjahlutfoll": { "karlar": 200, "konur": 250, "annad": 150 },
+        "val": {
+          "fyrstaval": { "karlar": 100, "konur": 120, "annad": 80 },
+          "annadval": { "karlar": 70, "konur": 90, "annad": 50 },
+          "accepted": { "karlar": 80, "konur": 100, "annad": 60 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Biology", true],
+          ["Philosophy", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Fjölbrautaskóli Suðurnesja",
+        "kynjahlutfoll": { "karlar": 350, "konur": 400, "annad": 200 },
+        "val": {
+          "fyrstaval": { "karlar": 180, "konur": 200, "annad": 120 },
+          "annadval": { "karlar": 120, "konur": 150, "annad": 80 },
+          "accepted": { "karlar": 150, "konur": 180, "annad": 100 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Fjölbrautaskóli Vesturlands",
+        "kynjahlutfoll": { "karlar": 180, "konur": 220, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 110, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 70, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+      
+      {
+        "nafn": "Flensborgarskólinn í Hafnarfirði",
+        "kynjahlutfoll": { "karlar": 280, "konur": 320, "annad": 180 },
+        "val": {
+          "fyrstaval": { "karlar": 140, "konur": 160, "annad": 100 },
+          "annadval": { "karlar": 100, "konur": 120, "annad": 70 },
+          "accepted": { "karlar": 120, "konur": 140, "annad": 80 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Framhaldsskólinn á Húsavík",
+        "kynjahlutfoll": { "karlar": 220, "konur": 180, "annad": 100 },
+        "val": {
+          "fyrstaval": { "karlar": 100, "konur": 80, "annad": 50 },
+          "annadval": { "karlar": 70, "konur": 60, "annad": 40 },
+          "accepted": { "karlar": 80, "konur": 70, "annad": 45 }
+        },
+        "brautir": [
+          ["Mathematics", true],
+          ["Physics", false],
+          ["Geography", true],
+          ["Art and Design", false],
+          ["Biology", true],
+          ["Chemistry", false],
+          ["History", true],
+          ["Literature", false],
+          ["Computer Science", true],
+          ["Music", false]
+        ]
+      },
+      
+      {
+        "nafn": "Framhaldsskólinn á Laugum",
+        "kynjahlutfoll": { "karlar": 180, "konur": 200, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 100, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 80, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Framhaldsskólinn í Austur - Skaftafellssýslu",
+        "kynjahlutfoll": { "karlar": 150, "konur": 180, "annad": 80 },
+        "val": {
+          "fyrstaval": { "karlar": 70, "konur": 90, "annad": 50 },
+          "annadval": { "karlar": 50, "konur": 60, "annad": 30 },
+          "accepted": { "karlar": 60, "konur": 70, "annad": 40 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature, false"]
+        ]
+      },
+
+      {
+        "nafn": "Framhaldsskólinn í Mosfellsbæ",
+        "kynjahlutfoll": { "karlar": 190, "konur": 220, "annad": 110 },
+        "val": {
+          "fyrstaval": { "karlar": 95, "konur": 110, "annad": 55 },
+          "annadval": { "karlar": 65, "konur": 80, "annad": 45 },
+          "accepted": { "karlar": 75, "konur": 100, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Framhaldsskólinn í Vestmannaeyjum",
+        "kynjahlutfoll": { "karlar": 210, "konur": 250, "annad": 130 },
+        "val": {
+          "fyrstaval": { "karlar": 110, "konur": 130, "annad": 70 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 90, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Hallormsstaðaskóli",
+        "kynjahlutfoll": { "karlar": 180, "konur": 200, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 100, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 80, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+      
+      {
+        "nafn": "Hússtjórnarskóli Reykjavíkur",
+        "kynjahlutfoll": { "karlar": 200, "konur": 180, "annad": 100 },
+        "val": {
+          "fyrstaval": { "karlar": 100, "konur": 90, "annad": 50 },
+          "annadval": { "karlar": 70, "konur": 60, "annad": 40 },
+          "accepted": { "karlar": 80, "konur": 70, "annad": 45 }
+        },
+        "brautir": [
+          ["Mathematics", true],
+          ["Physics", false],
+          ["Geography", true],
+          ["Art and Design", false],
+          ["Biology", true],
+          ["Chemistry", false],
+          ["History", true],
+          ["Literature", false],
+          ["Computer Science", true],
+          ["Music", false]
+        ]
+      },
+      
+      {
+        "nafn": "Kvennaskólinn í Reykjavík",
+        "kynjahlutfoll": { "karlar": 150, "konur": 180, "annad": 80 },
+        "val": {
+          "fyrstaval": { "karlar": 70, "konur": 80, "annad": 40 },
+          "annadval": { "karlar": 50, "konur": 60, "annad": 30 },
+          "accepted": { "karlar": 60, "konur": 70, "annad": 40 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+      
+      {
+        "nafn": "Landbúnaðarháskóli Íslands",
+        "kynjahlutfoll": { "karlar": 190, "konur": 220, "annad": 110 },
+        "val": {
+          "fyrstaval": { "karlar": 95, "konur": 110, "annad": 55 },
+          "annadval": { "karlar": 65, "konur": 80, "annad": 45 },
+          "accepted": { "karlar": 75, "konur": 100, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Landbúnaðarháskóli Íslands",
+        "kynjahlutfoll": { "karlar": 190, "konur": 220, "annad": 110 },
+        "val": {
+          "fyrstaval": { "karlar": 95, "konur": 110, "annad": 55 },
+          "annadval": { "karlar": 65, "konur": 80, "annad": 45 },
+          "accepted": { "karlar": 75, "konur": 100, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn á Akureyri",
+        "kynjahlutfoll": { "karlar": 210, "konur": 250, "annad": 130 },
+        "val": {
+          "fyrstaval": { "karlar": 110, "konur": 130, "annad": 70 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 90, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn á Ásbrú",
+        "kynjahlutfoll": { "karlar": 180, "konur": 200, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 100, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 80, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn á Egilsstöðum",
+        "kynjahlutfoll": { "karlar": 200, "konur": 180, "annad": 100 },
+        "val": {
+          "fyrstaval": { "karlar": 100, "konur": 90, "annad": 50 },
+          "annadval": { "karlar": 70, "konur": 60, "annad": 40 },
+          "accepted": { "karlar": 80, "konur": 70, "annad": 45 }
+        },
+        "brautir": [
+          ["Mathematics", true],
+          ["Physics", false],
+          ["Geography", true],
+          ["Art and Design", false],
+          ["Biology", true],
+          ["Chemistry", false],
+          ["History", true],
+          ["Literature", false],
+          ["Computer Science", true],
+          ["Music", false]
+        ]
+      },
+      
+      {
+        "nafn": "Menntaskólinn á Ísafirði",
+        "kynjahlutfoll": { "karlar": 150, "konur": 180, "annad": 80 },
+        "val": {
+          "fyrstaval": { "karlar": 70, "konur": 80, "annad": 40 },
+          "annadval": { "karlar": 50, "konur": 60, "annad": 30 },
+          "accepted": { "karlar": 60, "konur": 70, "annad": 40 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+      
+      {
+        "nafn": "Menntaskólinn að Laugarvatni",
+        "kynjahlutfoll": { "karlar": 190, "konur": 220, "annad": 110 },
+        "val": {
+          "fyrstaval": { "karlar": 95, "konur": 110, "annad": 55 },
+          "annadval": { "karlar": 65, "konur": 80, "annad": 45 },
+          "accepted": { "karlar": 75, "konur": 100, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn á Tröllaskaga",
+        "kynjahlutfoll": { "karlar": 210, "konur": 250, "annad": 130 },
+        "val": {
+          "fyrstaval": { "karlar": 110, "konur": 130, "annad": 70 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 90, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskóli Borgarfjarðar",
+        "kynjahlutfoll": { "karlar": 180, "konur": 200, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 100, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 80, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+      
+      {
+        "nafn": "Menntaskólinn í Kópavogi",
+        "kynjahlutfoll": { "karlar": 200, "konur": 180, "annad": 100 },
+        "val": {
+          "fyrstaval": { "karlar": 100, "konur": 90, "annad": 50 },
+          "annadval": { "karlar": 70, "konur": 60, "annad": 40 },
+          "accepted": { "karlar": 80, "konur": 70, "annad": 45 }
+        },
+        "brautir": [
+          ["Mathematics", true],
+          ["Physics", false],
+          ["Geography", true],
+          ["Art and Design", false],
+          ["Biology", true],
+          ["Chemistry", false],
+          ["History", true],
+          ["Literature", false],
+          ["Computer Science", true],
+          ["Music", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn í Reykjavík",
+        "kynjahlutfoll": { "karlar": 150, "konur": 180, "annad": 80 },
+        "val": {
+          "fyrstaval": { "karlar": 70, "konur": 80, "annad": 40 },
+          "annadval": { "karlar": 50, "konur": 60, "annad": 30 },
+          "accepted": { "karlar": 60, "konur": 70, "annad": 40 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskóli í tónlist",
+        "kynjahlutfoll": { "karlar": 190, "konur": 220, "annad": 110 },
+        "val": {
+          "fyrstaval": { "karlar": 95, "konur": 110, "annad": 55 },
+          "annadval": { "karlar": 65, "konur": 80, "annad": 45 },
+          "accepted": { "karlar": 75, "konur": 100, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn við Hamrahlíð",
+        "kynjahlutfoll": { "karlar": 210, "konur": 250, "annad": 130 },
+        "val": {
+          "fyrstaval": { "karlar": 110, "konur": 130, "annad": 70 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 90, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Menntaskólinn við Sund",
+        "kynjahlutfoll": { "karlar": 180, "konur": 200, "annad": 120 },
+        "val": {
+          "fyrstaval": { "karlar": 90, "konur": 100, "annad": 60 },
+          "annadval": { "karlar": 60, "konur": 80, "annad": 40 },
+          "accepted": { "karlar": 70, "konur": 90, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Myndlistaskólinn á Akureyri",
+        "kynjahlutfoll": { "karlar": 200, "konur": 180, "annad": 100 },
+        "val": {
+          "fyrstaval": { "karlar": 100, "konur": 90, "annad": 50 },
+          "annadval": { "karlar": 70, "konur": 60, "annad": 40 },
+          "accepted": { "karlar": 80, "konur": 70, "annad": 45 }
+        },
+        "brautir": [
+          ["Mathematics", true],
+          ["Physics", false],
+          ["Geography", true],
+          ["Art and Design", false],
+          ["Biology", true],
+          ["Chemistry", false],
+          ["History", true],
+          ["Literature", false],
+          ["Computer Science", true],
+          ["Music", false]
+        ]
+      },
+      
+      {
+        "nafn": "Myndlistaskólinn í Reykjavík",
+        "kynjahlutfoll": { "karlar": 150, "konur": 180, "annad": 80 },
+        "val": {
+          "fyrstaval": { "karlar": 70, "konur": 80, "annad": 40 },
+          "annadval": { "karlar": 50, "konur": 60, "annad": 30 },
+          "accepted": { "karlar": 60, "konur": 70, "annad": 40 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Chemical Engineering", false],
+          ["Psychology", true],
+          ["Finance", false],
+          ["Biology", true],
+          ["Sociology", false],
+          ["Political Science", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      },
+
+      {
+        "nafn": "Verkmenntaskóli Austurlands",
+        "kynjahlutfoll": { "karlar": 190, "konur": 220, "annad": 110 },
+        "val": {
+          "fyrstaval": { "karlar": 95, "konur": 110, "annad": 55 },
+          "annadval": { "karlar": 65, "konur": 80, "annad": 45 },
+          "accepted": { "karlar": 75, "konur": 100, "annad": 50 }
+        },
+        "brautir": [
+          ["Environmental Science", true],
+          ["History", false],
+          ["Economics", true],
+          ["Art and Design", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Computer Engineering", true],
+          ["English Literature", false],
+          ["Mathematics", true],
+          ["Marketing", false]
+        ]
+      },
+
+      {
+        "nafn": "Verkmenntaskólinn á Akureyri",
+        "kynjahlutfoll": { "karlar": 210, "konur": 250, "annad": 130 },
+        "val": {
+          "fyrstaval": { "karlar": 110, "konur": 130, "annad": 70 },
+          "annadval": { "karlar": 80, "konur": 100, "annad": 50 },
+          "accepted": { "karlar": 90, "konur": 120, "annad": 60 }
+        },
+        "brautir": [
+          ["Computer Science", true],
+          ["Psychology", false],
+          ["Business Administration", true],
+          ["Chemistry", false],
+          ["Political Science", true],
+          ["Physics", false],
+          ["Sociology", true],
+          ["Graphic Design", false],
+          ["Mathematics", true],
+          ["English Literature", false]
+        ]
+      } 
+]
+
+
+
