@@ -98,9 +98,6 @@ const Header = () => {
                 <Button style={styles_navbar.button}>Skólar</Button>
                 </Link>
             </Box>
-            <Box style={styles_navbar.individualButtonBox}>
-                <Button style={styles_navbar.button}>Button 2</Button>
-            </Box>
             </Box>
         </div>
         </Toolbar>
