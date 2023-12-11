@@ -41,6 +41,8 @@ const SchoolPage = ({ jsonData }) => {
   const annadvalPercentageKarlar = calculatePercentage(school.val.annadval.karlar, annadvalSum);
   const annadvalPercentageKonur = calculatePercentage(school.val.annadval.konur, annadvalSum);
   const annadvalPercentageAnnad = calculatePercentage(school.val.annadval.annad, annadvalSum);
+  const majorsWithStudentsProf = school.brautir.filter((major) => major.studentsprof);
+  const majorsWithoutStudentsProf = school.brautir.filter((major) => !major.studentsprof);
   // Lorem ipsum texti myndi breytast eftir skóla setti þetta inn til að fylla síðuna for now
   return (
     <>
@@ -78,14 +80,18 @@ const SchoolPage = ({ jsonData }) => {
           </ul>
       </div>
       <div className='majors-list'>
-      <h3>Brautir :</h3>
-      <ul>
-        {school.brautir.map((major, index) => (
-          <li key={index}>
-            {major.nafn} {major.studentsprof ? '(Studentsprof)' : '(Ekkert Studentsprof)'} - Lengd Náms: {major.UtskriftartimiAnnir / 2} ár
-          </li>
-          ))}
-      </ul>
+      <h3>Brautir með Stúdentsprófi</h3>
+          <ul>
+            {majorsWithStudentsProf.map((major, index) => (
+              <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
+            ))}
+          </ul>
+          <h3>Brautir án Stúdentsprófs</h3>
+          <ul>
+            {majorsWithoutStudentsProf.map((major, index) => (
+              <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
+            ))}
+          </ul>
       <iframe
             title={`Google Maps - ${school.nafn}`}
             src={school.location}
@@ -93,7 +99,7 @@ const SchoolPage = ({ jsonData }) => {
             height="300"
             allowFullScreen
             loading="lazy"
-          ></iframe>
+            ></iframe>
       </div>
     </div>
     </>
