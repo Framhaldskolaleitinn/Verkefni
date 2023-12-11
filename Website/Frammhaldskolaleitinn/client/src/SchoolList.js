@@ -27,10 +27,10 @@ const SchoolList = ({ jsonDataProp }) => {
   // Filter schools based on searchQuery
   const filteredSchools = jsonData
     ? jsonData.filter((school) =>
-        school.majors.some((major) => major.toLowerCase().includes(searchQuery.toLowerCase()))
+        school.brautir.some((brautir) => major.toLowerCase().includes(searchQuery.toLowerCase()))
       )
     : [];
-
+  
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
   };
@@ -57,11 +57,11 @@ const SchoolList = ({ jsonDataProp }) => {
       />
 
       <div className="school-container">
-        {filteredSchools.map((school) => (
+        {/* {filteredSchools.map((school) => (
           <Link key={school.nafn} to={`/school-list/school/${school.nafn}`} className="school-box">
             <button>{school.nafn}</button>
           </Link>
-        ))}
+        ))} */}
       </div>
     </div>
     </>
