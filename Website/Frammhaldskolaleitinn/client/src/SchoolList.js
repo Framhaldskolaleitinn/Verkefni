@@ -7,6 +7,7 @@ import './SchoolList.css'
 const SchoolList = ({ jsonDataProp }) => {
   const [jsonData, setJsonData] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [includeStudentsProf, setIncludeStudentsProf] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,15 +26,22 @@ const SchoolList = ({ jsonDataProp }) => {
     fetchData();
   }, []);
 
-  // Filter schools based on searchQuery
+  console.log('jsonData:', jsonData);
   const filteredSchools = jsonData
-    ? jsonData.filter((school) =>
-        school.brautir.some((major) => major[0].toLowerCase().includes(searchQuery.toLowerCase()))
+  ? jsonData.filter((school) =>
+      school.brautir.some(
+        (major) =>
+          major.nafn.toLowerCase().includes(searchQuery.toLowerCase()) &&
+          (!includeStudentsProf || (includeStudentsProf && major.studentsprof === true))
       )
-    : [];
-    
+    )
+  : [];
+
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
+  };
+  const handleCheckboxChange = () => {
+    setIncludeStudentsProf(!includeStudentsProf);
   };
 
   if (jsonData === null) {
@@ -54,6 +62,14 @@ const SchoolList = ({ jsonDataProp }) => {
         value={searchQuery} 
         onChange={handleSearch}
       />
+      <label>
+          <input
+            type="checkbox"
+            checked={includeStudentsProf}
+            onChange={handleCheckboxChange}
+          />
+          Include Professional Majors
+        </label>
 
       <div className="school-container">
         {/* {filteredSchools.map((school) => (
