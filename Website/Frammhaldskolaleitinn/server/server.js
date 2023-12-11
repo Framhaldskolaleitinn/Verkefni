@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors');
 const port = 3001;
 
+/*
 app.use(cors());
 app.use(express.json());
 // þetta er bara fyrir mig (hreim) þar sem tenginn við mongo virkar ekki hjá mér
@@ -16,7 +17,7 @@ app.listen(port, () => {
 })
 
 // Viktor vann í þessu frá 17:00 til 22:00 (07/12/2023)
-/*
+*/
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const uri = "mongodb+srv://admin:admin123@cluster0.jvmjfif.mongodb.net/Framhaldsskolaleitin?retryWrites=true&w=majority";
@@ -53,4 +54,3 @@ app.get('/api/data', async (req, res) => {
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
-}) */
