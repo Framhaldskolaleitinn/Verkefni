@@ -53,12 +53,7 @@ const SchoolPage = ({ jsonData }) => {
       <div className='school-info'>
       <h2>{school.nafn}</h2>
       <img src={school.img} alt={`Logo of ${school.nafn}`} className='skola-logo' />
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Duis congue purus quis scelerisque vehicula. Praesent eget eros libero. Pellentesque pellentesque 
-        bibendum sapien, at rhoncus nisl pharetra maximus. Integer nec mauris id urna posuere tempus. Suspendisse 
-        porttitor rutrum purus non vehicula. Maecenas elementum vel eros a hendrerit. Vestibulum feugiat in neque 
-        in consectetur. Nullam nec ultricies erat. Nam dolor eros, mattis eu tempus sed, lacinia a eros. Mauris lacinia 
-        varius sapien quis molestie. Donec sed tincidunt quam. Nulla facilisi. Sed sit amet urna felis.</p>
+      <p> {school.texti}</p>
         <h3>Umskóknir</h3>
           <h3>Hleypt inn: {acceptedSum}</h3>
           <ul>
