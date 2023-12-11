@@ -43,3 +43,23 @@
                         - Video með notkun
                         - Hvernig er hægt að halda áfram.
                 - Tumi og Viktor svöruðu loksins. Erum að vinna á síðunni saman. Fá hana til þess að virka almennilega.
+
+Skólar sem vanta:
+framh. Mosfellsbæ
+landbúnaðarháskóli íslands 2x
+Menntaskólinn á akureyri
+m. á ásbrú
+m. á Egilstöðum
+m. á ísafirði
+m. á laugarvatni
+m. á trollskaga
+m. á borgarfirði
+mk
+mr
+mít
+m. hamrahlíð
+ms
+myndlistaskólinn á akureyri
+myndlistaskólinn í reykjavík
+verkmenntaskóli austurlands
+verkmenntaskólinn á akureyri
