@@ -88,7 +88,7 @@ link https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type
 
 
 ### Tengill á Youtube
-[Skjámyndsupptaka](https://youtu.be/ou8WvZHzpKk)
+<a href="https://youtu.be/ou8WvZHzpKk" target="_blank">Skjámyndsupptaka</a>
 
 ## Samantekt
 
