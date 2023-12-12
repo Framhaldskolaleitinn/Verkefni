@@ -64,6 +64,8 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 
 link https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type=design&t=hnyA8Lb94YnpwOa4-6
 
+<img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/e0c6a840-9f03-47f4-9d88-e1b8bdf56cfc" alt="Your Image" width="300"/>
+
 ![Capture](https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/e0c6a840-9f03-47f4-9d88-e1b8bdf56cfc)
 
 ## wireFrame
