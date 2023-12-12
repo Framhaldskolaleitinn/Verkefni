@@ -79,7 +79,12 @@ link https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type
 <img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e" alt="Your Image" width="250"/><img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e" alt="Your Image" width="250"/><img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e" alt="Your Image" width="250"/>
 
 ### Skjámyndir af Vefappi
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<img width="500" alt="image" src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70168436/7ffe0614-4965-466d-b208-fc89744842c9">
+<img width="500" alt="image" src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70168436/84067bd7-5264-4c3b-8f64-4566f0effec8">
+<img width="500" alt="image" src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70168436/ff2c3643-70dd-41cf-a7e2-8edb5a4e356e">
+<img width="500" alt="image" src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70168436/5487d350-dc93-4f1e-b9ab-c39f52847274">
+
+
 
 
 ### Tengill á Youtube
