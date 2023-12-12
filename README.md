@@ -54,7 +54,7 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 &nbsp;&nbsp;&nbsp;&nbsp;fjoldiNemendaIHR: 366\
 }
 
-[Github Repository](https://github.com/Framhaldskolaleitinn/Verkefni/skyrsluGogn/FramhaldsskolaleitinDB)
+[Github Repository](https://github.com/Framhaldskolaleitinn/Verkefni/tree/main/skyrsluGogn/FramhaldsskolaleitinDB)
 
 ##### MySQL DB (Gamla database-ið)
 
