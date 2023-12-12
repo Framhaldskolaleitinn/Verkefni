@@ -19,4 +19,6 @@
     background-color: #bfc3ca;
     border-radius: 10px;
     overflow-y: auto;
+    margin: auto;
+    margin-top: 15px;
   }
