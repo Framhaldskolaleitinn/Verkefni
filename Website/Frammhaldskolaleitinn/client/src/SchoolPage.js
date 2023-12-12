@@ -50,56 +50,68 @@ const SchoolPage = ({ jsonData }) => {
     <Header/>
     </div>
       <div className="school-page-container">
-      <div className='school-info'>
-      <h2>{school.nafn}</h2>
-      <img src={school.img} alt={`Logo of ${school.nafn}`} className='skola-logo' />
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Duis congue purus quis scelerisque vehicula. Praesent eget eros libero. Pellentesque pellentesque 
-        bibendum sapien, at rhoncus nisl pharetra maximus. Integer nec mauris id urna posuere tempus. Suspendisse 
-        porttitor rutrum purus non vehicula. Maecenas elementum vel eros a hendrerit. Vestibulum feugiat in neque 
-        in consectetur. Nullam nec ultricies erat. Nam dolor eros, mattis eu tempus sed, lacinia a eros. Mauris lacinia 
-        varius sapien quis molestie. Donec sed tincidunt quam. Nulla facilisi. Sed sit amet urna felis.</p>
-        <h3>Umskóknir</h3>
-          <h3>Hleypt inn: {acceptedSum}</h3>
-          <ul>
-            <li>Karlar: {school.val.accepted.karlar} ({acceptedPercentageKarlar}%)</li>
-            <li>Konur: {school.val.accepted.konur} ({acceptedPercentageKonur}%)</li>
-            <li>Annad: {school.val.accepted.annad} ({acceptedPercentageAnnad}%)</li>
-          </ul>
-          <h3>Fyrsta val: {fyrstavalSum}</h3>
-          <ul>
-            <li>Karlar: {school.val.fyrstaval.karlar} ({fyrstavalPercentageKarlar}%)</li>
-            <li>Konur: {school.val.fyrstaval.konur} ({fyrstavalPercentageKonur}%)</li>
-            <li>Annad: {school.val.fyrstaval.annad} ({fyrstavalPercentageAnnad}%)</li>
-          </ul>
-          <h3>Annað val: {annadvalSum}</h3>
-          <ul>
-            <li>Karlar: {school.val.annadval.karlar} ({annadvalPercentageKarlar}%)</li>
-            <li>Konur: {school.val.annadval.konur} ({annadvalPercentageKonur}%)</li>
-            <li>Annad: {school.val.annadval.annad} ({annadvalPercentageAnnad}%)</li>
-          </ul>
-      </div>
+        <div className='school-info'>
+          <div className='skola_texti'>
+            <h2>{school.nafn}</h2>
+            <img src={school.img} alt={`Logo of ${school.nafn}`} className='skola-logo' />
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis congue purus quis scelerisque vehicula. Praesent eget eros libero. Pellentesque pellentesque 
+              bibendum sapien, at rhoncus nisl pharetra maximus. Integer nec mauris id urna posuere tempus. Suspendisse 
+              porttitor rutrum purus non vehicula. Maecenas elementum vel eros a hendrerit. Vestibulum feugiat in neque 
+              in consectetur. Nullam nec ultricies erat. Nam dolor eros, mattis eu tempus sed, lacinia a eros. Mauris lacinia 
+              varius sapien quis molestie. Donec sed tincidunt quam. Nulla facilisi. Sed sit amet urna felis.
+            </p>
+          </div>
+            <div className='umsoknir_skoli'>
+              <h3>Umskóknir</h3>
+              <h3>Hleypt inn: {acceptedSum}</h3>
+                <ul>
+                  <li>Karlar: {school.val.accepted.karlar} ({acceptedPercentageKarlar}%)</li>
+                  <li>Konur: {school.val.accepted.konur} ({acceptedPercentageKonur}%)</li>
+                  <li>Annad: {school.val.accepted.annad} ({acceptedPercentageAnnad}%)</li>
+                </ul>
+              <h3>Fyrsta val: {fyrstavalSum}</h3>
+                <ul>
+                  <li>Karlar: {school.val.fyrstaval.karlar} ({fyrstavalPercentageKarlar}%)</li>
+                  <li>Konur: {school.val.fyrstaval.konur} ({fyrstavalPercentageKonur}%)</li>
+                  <li>Annad: {school.val.fyrstaval.annad} ({fyrstavalPercentageAnnad}%)</li>
+                </ul>
+              <h3>Annað val: {annadvalSum}</h3>
+                <ul>
+                  <li>Karlar: {school.val.annadval.karlar} ({annadvalPercentageKarlar}%)</li>
+                  <li>Konur: {school.val.annadval.konur} ({annadvalPercentageKonur}%)</li>
+                  <li>Annad: {school.val.annadval.annad} ({annadvalPercentageAnnad}%)</li>
+                </ul>
+            </div>
+        </div>
       <div className='majors-list'>
-      <h3>Brautir með Stúdentsprófi</h3>
-          <ul>
-            {majorsWithStudentsProf.map((major, index) => (
-              <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
-            ))}
-          </ul>
+
+        <div className='brautir' >
+          <h3>Brautir með Stúdentsprófi</h3>
+            <ul>
+              {majorsWithStudentsProf.map((major, index) => (
+                <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
+                ))}
+            </ul>
           <h3>Brautir án Stúdentsprófs</h3>
-          <ul>
-            {majorsWithoutStudentsProf.map((major, index) => (
-              <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
-            ))}
-          </ul>
-      <iframe
+            <ul>
+              {majorsWithoutStudentsProf.map((major, index) => (
+                <li key={index}>{major.nafn} - {major.UtskriftartimiAnnir / 2} ár</li>
+                ))}
+            </ul>
+        </div>
+        <div className='location_skoli'>
+          <h3 >location</h3>
+          <iframe
             title={`Google Maps - ${school.nafn}`}
             src={school.location}
             width="400"
             height="300"
             allowFullScreen
             loading="lazy"
-            ></iframe>
+          ></iframe>
+        </div>
+
       </div>
     </div>
     </>

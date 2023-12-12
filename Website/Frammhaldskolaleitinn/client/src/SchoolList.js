@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import Header from './header';
 import './SchoolList.css'
 
+
+
+
 const SchoolList = ({ jsonDataProp }) => {
   const [jsonData, setJsonData] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
@@ -70,15 +73,14 @@ const SchoolList = ({ jsonDataProp }) => {
           />
           Brautir með Stúdentsprófi
         </label>
-
-      <div className="school-container">
-        {filteredSchools.map((school) => (
-          <Link key={school.nafn} to={`/school-list/school/${school.nafn}`} className="school-box"> 
-            <button>
-             {school.nafn}</button>
-          </Link>
-        ))}
-      </div>
+        
+        <div className="school-container">
+          {filteredSchools.map((school) => (
+            <Link key={school.nafn} to={`/school-list/school/${school.nafn}`} className="school-box">
+              <button style={{ width: '100%', height: '100%' }}>{school.nafn}</button>
+            </Link>
+          ))}
+        </div>
     </div>
     </>
   );
