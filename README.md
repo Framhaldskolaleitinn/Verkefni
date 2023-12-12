@@ -20,36 +20,36 @@ Við vitum öll hversu erfitt það er þegar þú ert nýbúinn með grunnskól
 Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er hægt að kíkja á hvern einasta skóla og skoða brautir sem þau bjóða upp á, upplýsingar um t.d. hversu margir klára þetta nám, hversu margir komast í háskóla eftir námið o.s.frv. Einnig verður hægt að sía í gegnum skólana og brautina og fá yfirlit af ákveðnu námi sem þú ert að leita af, t.d. geturðu séð alla skólana sem bjóða upp á tölvubraut og síðan af þeim, hvaða brautir fylgja með stúdentspróf. 
 
 ### Dæmi um database
-{
-&nbsp;&nbsp;&nbsp;&nbsp;_id: ObjectId("657241f9916ac9518a4e7771"),
-&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Kvennaskólinn í Reykjavík',
-&nbsp;&nbsp;&nbsp;&nbsp;kynjahlutfoll: { karlar: 150, konur: 180, annad: 80 },
-&nbsp;&nbsp;&nbsp;&nbsp;val: {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fyrstaval: { karlar: 70, konur: 80, annad: 40 },
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;annadval: { karlar: 50, konur: 60, annad: 30 },
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accepted: { karlar: 60, konur: 70, annad: 40 }
-&nbsp;&nbsp;&nbsp;&nbsp;},
-&nbsp;&nbsp;&nbsp;&nbsp;brautir: [
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Computer Science',
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studentsprof: true,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Chemical Engineering',
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studentsprof: false,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Psychology',
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studentsprof: true,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-&nbsp;&nbsp;&nbsp;&nbsp;],
-&nbsp;&nbsp;&nbsp;&nbsp;img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9LwfNGzKJpXtAvHkoCYzC-0wTXW5YPIW0WvUTjOpPg&s',
-&nbsp;&nbsp;&nbsp;&nbsp;location: 'https://maps.app.goo.gl/zavQiCi5JJ3meHBj6',
-&nbsp;&nbsp;&nbsp;&nbsp;texti: 'Lorem ipsum dolor sit amet, ...,
-&nbsp;&nbsp;&nbsp;&nbsp;fjoldiNemendaIHR: 366
+{\
+&nbsp;&nbsp;&nbsp;&nbsp;_id: ObjectId("657241f9916ac9518a4e7771"),\
+&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Kvennaskólinn í Reykjavík',\
+&nbsp;&nbsp;&nbsp;&nbsp;kynjahlutfoll: { karlar: 150, konur: 180, annad: 80 },\
+&nbsp;&nbsp;&nbsp;&nbsp;val: {\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fyrstaval: { karlar: 70, konur: 80, annad: 40 },\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;annadval: { karlar: 50, konur: 60, annad: 30 },\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;accepted: { karlar: 60, konur: 70, annad: 40 }\
+&nbsp;&nbsp;&nbsp;&nbsp;},\
+&nbsp;&nbsp;&nbsp;&nbsp;brautir: [\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Computer Science',\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studentsprof: true,\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Chemical Engineering',\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studentsprof: false,\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Psychology',\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studentsprof: true,\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},\
+&nbsp;&nbsp;&nbsp;&nbsp;],\
+&nbsp;&nbsp;&nbsp;&nbsp;img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9LwfNGzKJpXtAvHkoCYzC-0wTXW5YPIW0WvUTjOpPg&s',\
+&nbsp;&nbsp;&nbsp;&nbsp;location: 'https://maps.app.goo.gl/zavQiCi5JJ3meHBj6',\
+&nbsp;&nbsp;&nbsp;&nbsp;texti: 'Lorem ipsum dolor sit amet, ...,\
+&nbsp;&nbsp;&nbsp;&nbsp;fjoldiNemendaIHR: 366\
 }
 
 ### Framework og Söfn
