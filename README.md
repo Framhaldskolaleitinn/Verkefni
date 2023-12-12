@@ -46,8 +46,8 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UtskriftartimiAnnir: 6\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},\
 &nbsp;&nbsp;&nbsp;&nbsp;],\
-&nbsp;&nbsp;&nbsp;&nbsp;img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9LwfNGzKJpXtAvHkoCYzC-0wTXW5YPIW0WvUTjOpPg&s',\
-&nbsp;&nbsp;&nbsp;&nbsp;location: 'https://maps.app.goo.gl/zavQiCi5JJ3meHBj6',\
+&nbsp;&nbsp;&nbsp;&nbsp;img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ9LwfNGzKJpXtAvHkoCYzC-0wTXW5YPIW0WvUTjOpPg&s', \
+&nbsp;&nbsp;&nbsp;&nbsp;location: 'https://maps.app.goo.gl/zavQiCi5JJ3meHBj6', \
 &nbsp;&nbsp;&nbsp;&nbsp;texti: 'Lorem ipsum dolor sit amet, ...,\
 &nbsp;&nbsp;&nbsp;&nbsp;fjoldiNemendaIHR: 366\
 }
