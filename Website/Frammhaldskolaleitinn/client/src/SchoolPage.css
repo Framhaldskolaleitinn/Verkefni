@@ -30,3 +30,31 @@
     max-width: 10em;
   }
   
+.brautir {
+  border: 2px solid #333;
+  text-align: center;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 10px;
+}
+.skola_texti{
+  border: 2px solid #333;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 10px;
+}
+.location_skoli {
+  margin-top: 20px;
+  border: 2px solid #333;
+  text-align: center;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 10px;
+}
+.umsoknir_skoli{
+  margin-top: 20px;
+  border: 2px solid #333;
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 10px;
+}

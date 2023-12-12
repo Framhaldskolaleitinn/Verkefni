@@ -1,6 +1,22 @@
 .school-list-container {
+    text-align: center ;
     margin: 1em;
 }
 .Skola-logo {
     max-width: 1em;
 }
+
+.school-container {
+    justify-items: center;
+    align-items: stretch;
+    max-width: 80em;
+    margin-top: 10px;
+    border: 2px solid #333;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Set it to 4 columns */
+    gap: 16px;
+    background-color: #bfc3ca;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
