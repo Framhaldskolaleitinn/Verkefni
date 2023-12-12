@@ -20,6 +20,8 @@ Við vitum öll hversu erfitt það er þegar þú ert nýbúinn með grunnskól
 Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er hægt að kíkja á hvern einasta skóla og skoða brautir sem þau bjóða upp á, upplýsingar um t.d. hversu margir klára þetta nám, hversu margir komast í háskóla eftir námið o.s.frv. Einnig verður hægt að sía í gegnum skólana og brautina og fá yfirlit af ákveðnu námi sem þú ert að leita af, t.d. geturðu séð alla skólana sem bjóða upp á tölvubraut og síðan af þeim, hvaða brautir fylgja með stúdentspróf. 
 
 ### Dæmi um database
+
+##### NoSQL DB (Það sem við notum)
 {\
 &nbsp;&nbsp;&nbsp;&nbsp;_id: ObjectId("657241f9916ac9518a4e7771"),\
 &nbsp;&nbsp;&nbsp;&nbsp;nafn: 'Kvennaskólinn í Reykjavík',\
@@ -52,6 +54,12 @@ Síðan okkar mun vera yfirlit af öllum skólunum á forsíðunni. Síðan er h
 &nbsp;&nbsp;&nbsp;&nbsp;fjoldiNemendaIHR: 366\
 }
 
+[Github Repository](https://github.com/Framhaldskolaleitinn/Verkefni/skyrsluGogn/FramhaldsskolaleitinDB)
+
+##### MySQL DB (Gamla database-ið)
+
+<img src="/skyrsluGogn/MySQL_DB.png" alt="Your Image" width="500"/>
+
 ### Framework og Söfn
 
 - Mern Stack
@@ -66,20 +74,13 @@ link https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type
 
 <img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/e0c6a840-9f03-47f4-9d88-e1b8bdf56cfc" alt="Your Image" width="500"/>
 
-<!---
-[comment]: <> ( ![Capture](https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/e0c6a840-9f03-47f4-9d88-e1b8bdf56cfc) )
--->
-
 ## wireFrame
-<!---
-[comment]: <> (![IMG_6339](https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e) )
--->
+
 <img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e" alt="Your Image" width="500"/>
 
 ### Skjámyndir af Vefappi
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-![Mynd 1](images/screenshot1.png)
-![Mynd 2](images/screenshot2.png)
+<img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e" alt="Your Image" width="500"/><img src="https://github.com/Framhaldskolaleitinn/Verkefni/assets/70201036/ebc57845-5ba9-4452-90a9-0f12bd143a5e" alt="Your Image" width="500"/>
 
 ### Tengill á Youtube
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -88,12 +89,11 @@ link https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type
 ## Samantekt
 
 ### Næstu Skref
-- Hægt er að gera annað table og hafa fullt af upplýsingum um brautirnar og áfangana sem eru á brautinni. Ef Við myndum vilja sýna áfanga líka væri best að gera annað noSQL collection til þess að halda í kringum þær upplýsingar þar sem einn áfangi getur verið á fleirri en einni braut. NoSQL databasið sem við erum með núna er gott og hægt að stækka það mikið. Ég myndi bæta inn fleirri gögnum.
-- Bæta við útlit og virkni síðunar.
+- Bjarni: Hægt er að gera annað table og hafa fullt af upplýsingum um brautirnar og áfangana sem eru á brautinni. Ef Við myndum vilja sýna áfanga líka væri best að gera annað noSQL collection til þess að halda í kringum þær upplýsingar þar sem einn áfangi getur verið á fleirri en einni braut. NoSQL databasið sem við erum með núna er gott og hægt að stækka það mikið. Ég myndi bæta inn fleirri gögnum.
+- Tumi: Bæta við útlit og virkni síðunar.
+- Hremmi: Halda áfram að updata síðu ef ný gögn koma í database. Láta forsíðu sína random facts um skóla, laga css og gera síðunna fallegri :)
+- Viktor: Næstu skref hjá mér væru í raun að vera milliliður og passa að gagnagrunnurinn (Bjarni) og appið (Hreimur) tengist og að data frá gagnagrunninum sé lesanlegt fyrir Hreim. Í raun er engin ókláruð virkni á mínum part, bara það að ef við myndum halda áfram þá myndi ég mögulega þurfa uppfæra eitthvað í rest-api en annars virkar allt þar eins og það á að gera.
 
-### Hreimur Næstu Skref :
-- Halda áfram að updata síðu ef ný gögn koma í database. Láta forsíðu sína random facts um skóla, laga css og gera síðunna fallegri :)
-- [Skref 3]
 
 ## Skil á Innu (Verkefni 5)
 [Github Repository](https://github.com/Framhaldskolaleitinn/Verkefni)
