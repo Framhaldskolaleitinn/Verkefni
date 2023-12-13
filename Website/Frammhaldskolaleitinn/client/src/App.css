@@ -65,3 +65,150 @@ body {
   button:hover {
     background-color: #2980b9;
   }
+
+  /* Þetta er það sem Viktor gerði fyrir einkunar skuld */
+
+  .container * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    font-family: 'Gloria Hallelujah', cursive;
+	  font-size: 1.2rem;
+	  background: rgb(202, 202, 202);
+	  margin: 0;
+	  padding: 1rem;
+	  display: grid;
+	  place-items: center;
+	  min-height: 100vh;
+  }
+
+  .container ol {
+    list-style-position: inside;
+    width: 1600px;
+    max-width: 100%;
+    background: white;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 0.15);
+    padding: 0;
+    margin: 0;
+    border-radius: 0.1rem;
+  }
+
+  .container li {
+    padding: 0 0 0 1rem;
+  }
+
+  .container li:not(:last-child) {
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid lightblue;
+  }
+
+  .container li:first-child {
+    margin-top: 1rem;
+  }
+
+  .container li:last-child {
+    margin-bottom: 1rem;
+  }
+
+  /* skolarnir */
+
+  .skolar-container * {
+    box-sizing: border-box;
+  }
+
+  .skolar-container {
+    margin: 0;
+    padding: clamp(1rem, 2vw, 3rem);
+    font-family: "Open Sans", sans-serif;
+    background: rgb(202, 202, 202);
+    text-align: center;
+  }
+
+  .skolar-container img  {
+    width: 100%;
+    display: block;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    margin-bottom: auto;
+  }
+
+  .skolar-container ul {
+    list-style: none;
+    padding: 1.5rem;
+    border: 0.1rem solid rgb(82, 82, 82);
+    columns: 20rem;
+    column-gap: 4rem;
+    column-rule: 0.2rem dotted #319BFE;
+    border-radius: 0.5rem;
+    
+    
+  }
+
+  .listyle {
+    --y: calc(100% - 2rem);
+    display: grid;
+    grid-template-columns: minmax(3.75em, auto) 1fr;
+    /*grid-template-columns: minmax(3.75em, auto) 1fr;*/
+
+    break-inside: avoid;
+    page-break-inside: avoid;
+    background: radial-gradient(circle at 30% var(--y), rgb(50 50 50), rgb(0 0 0));
+    color: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0.45rem 0.45rem 0.7rem rgb(0 0 0 / 0.17);
+    
+  }
+
+  .skolar-container li + li {
+    margin-top: 1rem;
+  }
+  .dummy {
+    margin: 0;
+    overflow: hidden;
+  }
+  .listyle img {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    object-fit: cover;
+  }
+
+  /*.skolar-container li::before {
+    
+    font-weight: 700;
+    font-size: 4.5em;
+    letter-spacing: -0.125em;
+    line-height: 1;
+    color: turquoise;
+    grid-column: 1;
+    grid-row: span 2;
+    align-self: end;
+    margin: 0 0 -0.15em -0.15em;
+  }
+*/
+
+   .listyle span {
+    grid-column: 1 / 3;
+    width: 100%;
+    display: block;
+    font-size: 2em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .skolar-container h2 {
+     
+    font-size: 70px;
+    font-weight: 600;
+    background-image: radial-gradient(rgb(112, 112, 112), rgb(0 0 0));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+  }
+
+
+  
