@@ -89,6 +89,8 @@ link https://www.figma.com/file/WLm8GyV04ZF8iJWADWerRM/frammhaldskolaleitin?type
 
 ### Tengill á Youtube
 <a href="https://youtu.be/ou8WvZHzpKk" target="_blank">Skjámyndsupptaka</a>
+</br>
+
 <a href="https://youtu.be/DjHufjFzuQs" target="_blank">Uppfærð forsíða</a>
 
 
